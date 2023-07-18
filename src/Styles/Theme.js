@@ -7,6 +7,8 @@ const CustomeTheme = extendTheme({
     dwhite: "#ffffffb3",
     dwhite2: "#808080",
     lblack: "#212529",
+    lblack2: "#50684B",
+    lblack3: "#64825E", // recipe page search box shadow
     brick: "#b04c35",
     gblack: "#6a816133",
     dgreen: "#50684b",
@@ -14,7 +16,7 @@ const CustomeTheme = extendTheme({
   },
   fonts: {
     hind: "'Hind Vadodara', sans-serif",
-    k2d: "'K2D', sans-serif",
+    k2d200: "'K2D', sans-serif",
     inter: "'Inter', sans-serif",
     cursive: "'Reenie Beanie', cursive",
     cotoris: "'Alegreya Sans', sans-serif",
