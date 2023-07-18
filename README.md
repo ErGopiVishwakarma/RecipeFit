@@ -10,5 +10,5 @@
 - Netlify - npm install netlify-cli -g
 - Chakra UI : npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
 - Chakra UI Icons : npm i @chakra-ui/icons
-- React Icons : npm install react-icons / npm install react-icons --save
+- React Icons : npm install react-icons , npm install react-icons --save
 - Styled Components : npm i styled-components@4.1.3
