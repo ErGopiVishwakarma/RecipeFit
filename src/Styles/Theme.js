@@ -2,18 +2,21 @@ import { extendTheme } from "@chakra-ui/react";
 
 const CustomeTheme = extendTheme({
   colors: {
-    primary: "#FF5733",
-    secondary: "#007BFF",
+    black: "#000000",
+    white: "#ffffff",
+    darkwhite: "#ffffffb3",
+    darkwhite2: "#808080",
+    lightblack: "#212529",
+    brick: "#b04c35",
+    greenblack: "#6a816133",
+    darkgreen: "#50684b",
+    hovergreen: "#9ab295",
   },
   fonts: {
     hind: "'Hind Vadodara', sans-serif",
     k2d: "'K2D', sans-serif",
     inter: "'Inter', sans-serif",
-    cotoris: {
-      src: "url('./CotorisBold.ttf')",
-      fontDisplay: "swap",
-      format: "ttf",
-    },
+    cursive: "'Reenie Beanie', cursive",
   },
 });
 
