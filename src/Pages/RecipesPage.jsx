@@ -1,3 +1,4 @@
+import { Box, Text } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 
 const RecipesPage = () => {
@@ -5,7 +6,11 @@ const RecipesPage = () => {
     document.title = "Recipes | RecipeSnap";
   }, []);
 
-  return <div>RecipesPage</div>;
+  return (
+    <Box>
+      <Text fontFamily="hind">Recipe</Text>
+    </Box>
+  );
 };
 
 export default RecipesPage;

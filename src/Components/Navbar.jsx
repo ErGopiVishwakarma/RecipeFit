@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import { EmailIcon, Search2Icon } from "@chakra-ui/icons";
 import icon from '../Images/Icons/favicon.png'
 
+
 const Navbar = () => {
   return (
     <Box w='100%'>
