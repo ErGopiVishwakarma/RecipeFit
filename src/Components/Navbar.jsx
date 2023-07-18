@@ -1,6 +1,6 @@
 import React from "react";
-import { Box } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
+import { Box } from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
