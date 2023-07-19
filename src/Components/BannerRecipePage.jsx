@@ -13,7 +13,7 @@ const BannerRecipePage = () => {
       h={["240px", "250px", "265px", "280px"]}
     >
       <Text
-        fontFamily="k2d200"
+        fontFamily="cotorisb"
         color="white"
         textShadow="0 0 10px #000"
         textAlign="center"

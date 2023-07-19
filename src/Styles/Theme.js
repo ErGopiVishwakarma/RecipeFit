@@ -5,12 +5,13 @@ const CustomeTheme = extendTheme({
     black: "#000000",
     white: "#ffffff",
     dwhite: "#ffffffb3",
-    dwhite2: "#808080",
+    dwhite2: "#6a816133",
+    bdbg: "#rgba(255, 255, 255, 0.629)",
+    gblack: "#808080",
     lblack: "#212529",
     lblack2: "#50684B",
     lblack3: "#64825E", // recipe page search box shadow
     brick: "#b04c35",
-    gblack: "#6a816133",
     dgreen: "#50684b",
     hovergreen: "#9ab295",
   },
@@ -20,6 +21,7 @@ const CustomeTheme = extendTheme({
     inter: "'Inter', sans-serif",
     cursive: "'Reenie Beanie', cursive",
     cotoris: "'Alegreya Sans', sans-serif",
+    cotorisb: "Cotoris W01 Bold",
   },
 });
 
