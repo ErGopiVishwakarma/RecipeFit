@@ -1,4 +1,4 @@
-// Data Format - Only Copy title, category, img and images. Rest take the with chat gpt to save time.
+// Data Format - Only Copy title, category, img and images. Rest take help of chatGPT to save time.
 let RecipesData = [
   {
     title: "Gado Gado on Toast",
