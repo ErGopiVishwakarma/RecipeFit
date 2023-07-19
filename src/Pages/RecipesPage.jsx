@@ -3,6 +3,7 @@ import { Box, Text } from "@chakra-ui/react";
 
 import BannerRecipePage from "../Components/BannerRecipePage";
 import RecipePageSearch from "../Components/RecipePageSearch";
+import FilterRecipes from "../Components/FilterRecipes";
 
 const RecipesPage = () => {
   useEffect(() => {
@@ -16,6 +17,9 @@ const RecipesPage = () => {
 
       {/* Search Bar */}
       <RecipePageSearch />
+
+      {/* Filter */}
+      <FilterRecipes />
     </Box>
   );
 };
