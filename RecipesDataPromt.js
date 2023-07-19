@@ -10,6 +10,7 @@ let RecipesData = [
       "https://cdn.pickuplimes.com/cache/f3/cb/f3cb10842b8f952c15e165160ec7100a.jpg",
       "https://cdn.pickuplimes.com/cache/db/69/db6960e0305407ae244c6bd69e1433d9.jpg",
     ],
+    time: "15 mins",
     description:
       "This loaded toast is inspired by the Indonesian dish gado-gado, it's a salad with mixed vegetables served with peanut sauce on top. We simplified this amazing dish with peanut butter, cucumber, carrots and some deliciously spicy sambal.",
     ingredients: [
@@ -54,7 +55,8 @@ let RecipesData = [
 
 /* ChatGpt Prompt
 
-I will mention some food recipes , give me description, ingredients and directions for the recipe in this javascript object format -  {
+I will mention some food recipes , give me time, description, ingredients and directions for the recipe in this javascript object format -  {
+ time:"15 mins",
   description:
       "This loaded toast is inspired by the Indonesian dish gado-gado, it's a salad with mixed vegetables served with peanut sauce on top. We simplified this amazing dish with peanut butter, cucumber, carrots and some deliciously spicy sambal.",
   ingredients: [
