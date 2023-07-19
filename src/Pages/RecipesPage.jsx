@@ -1,5 +1,9 @@
-import { Box, Text } from "@chakra-ui/react";
 import React, { useEffect } from "react";
+import { Box, Text } from "@chakra-ui/react";
+
+import BannerRecipePage from "../Components/BannerRecipePage";
+import RecipePageSearch from "../Components/RecipePageSearch";
+import FilterRecipes from "../Components/FilterRecipes";
 
 const RecipesPage = () => {
   useEffect(() => {
@@ -7,8 +11,15 @@ const RecipesPage = () => {
   }, []);
 
   return (
-    <Box>
-      <Text fontFamily="hind">Recipe</Text>
+    <Box paddingBottom="800px" paddingTop={["65px", "75px", "85px"]}>
+      {/* Top Banner */}
+      <BannerRecipePage />
+
+      {/* Search Bar */}
+      <RecipePageSearch />
+
+      {/* Filter */}
+      <FilterRecipes />
     </Box>
   );
 };
