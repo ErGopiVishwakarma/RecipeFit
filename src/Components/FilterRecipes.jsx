@@ -1,46 +1,71 @@
+import * as css from "../Styles/FilterRecipeStyles";
 import React, { useState, useEffect } from "react";
-import { Box, Center, Image, Collapse, Button, Text } from "@chakra-ui/react";
+import {
+  useBreakpointValue,
+  Box,
+  Center,
+  Image,
+  Collapse,
+  Button,
+  Text,
+} from "@chakra-ui/react";
+import { FiFilter } from "react-icons/fi";
 
 import MenuRecipe from "./MenuRecipe";
 
 const FilterRecipes = () => {
+  const forFilterBtn = useBreakpointValue({ base: true, md: false });
   const [isBoxOpen, setIsBoxOpen] = useState(true);
+  const [showFilterBtn, setShowFilterBtn] = useState(false);
+
+  useEffect(() => {
+    if (forFilterBtn) {
+      setIsBoxOpen((prev) => false);
+      setShowFilterBtn((prev) => true);
+    } else {
+      setIsBoxOpen((prev) => true);
+      setShowFilterBtn((prev) => false);
+    }
+  }, [forFilterBtn]);
+
+  useEffect(() => {
+    setIsBoxOpen((prev) => true);
+  }, []);
 
   const handleToggle = () => {
     setIsBoxOpen(!isBoxOpen);
   };
 
   return (
-    <Box mt={["60px"]}>
-      <Button
-        onClick={handleToggle}
-        display={{ base: "block", md: "none" }}
-        mb={4}
-      >
-        Toggle Box
-      </Button>
+    <Box css={css.OuterCont}>
+      {showFilterBtn && (
+        <Button
+          rightIcon={<FiFilter />}
+          onClick={handleToggle}
+          css={css.ToggleBtn}
+          bg="greenbtn"
+          fontFamily="inter"
+          _hover={{ bg: "greenbtnhover" }}
+        >
+          Filter
+        </Button>
+      )}
 
       <Collapse in={isBoxOpen} startingHeight={0} animateOpacity>
-        <Box mt={{ base: 4, md: 0 }}>
+        <Box css={css.FilterParentCont}>
           {/* Recipe Type - A*/}
           <MenuRecipe
             CSS="A"
-            title="Recipe typeA"
+            title="Recipe type"
             optionType="checkbox"
             options={RecipeTypes}
           />
 
-          <Box
-            m="auto"
-            maxWidth="70%"
-            display="flex"
-            alignItems="center"
-            justifyContent="space-between"
-          >
+          <Box css={css.FirstFiltersHolder}>
             {/* Recipe Type - B*/}
             <MenuRecipe
               CSS="B"
-              title="Recipe typeB"
+              title="Recipe type"
               optionType="checkbox"
               options={RecipeTypes}
             />
@@ -63,11 +88,7 @@ const FilterRecipes = () => {
             />
           </Box>
 
-          <Box
-            display="flex"
-            alignItems="center"
-            justifyContent="space-between"
-          >
+          <Box css={css.SecondFiltersHolder}>
             {/* Include Ingredients */}
             <MenuRecipe
               closable={true}
@@ -85,24 +106,28 @@ const FilterRecipes = () => {
             />
           </Box>
 
-          <Box
-            display="flex"
-            alignItems="center"
-            justifyContent="space-between"
-          >
+          <Box css={css.BtnCont}>
             <Button
-              isLoading={false}
+              css={css.SubmitBtn}
               // spinner={<h1>xfvg</h1>}
               loadingText="Submitting"
               spinnerPlacement="end"
+              bg="greenbtn"
+              fontFamily="hind"
+              _hover={{ bg: "greenbtnhover" }}
+              isLoading={false}
             >
               Submit
             </Button>
             <Button
+              isLoading={false}
+              css={css.ResetBtn}
               spinnerPlacement="end"
               // spinner={<h1>xfvg</h1>}
-              isLoading={false}
               loadingText="Reseting"
+              fontFamily="hind"
+              bg="redbtn"
+              _hover={{ bg: "redbtnhover" }}
             >
               Reset
             </Button>

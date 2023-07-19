@@ -111,20 +111,27 @@ const DemoOptions = [
 ];
 
 export const MenuA = css`
+  display: none;
+
+  @media (max-width: 992px) {
+    display: block;
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+    display: block;
+  }
+`;
+export const MenuB = css`
+  display: block;
+
   @media (max-width: 992px) {
     display: none;
   }
   @media (max-width: 768px) {
   }
   @media (max-width: 480px) {
-  }
-`;
-export const MenuB = css`
-  @media (max-width: 992px) {
-  }
-  @media (max-width: 768px) {
-  }
-  @media (max-width: 480px) {
+    display: none;
   }
 `;
 export const NotProvided = css`

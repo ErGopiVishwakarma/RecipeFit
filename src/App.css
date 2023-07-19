@@ -1,45 +1,6 @@
 .App {
   text-align: center;
 }
-
-/*  */
-.recipetypeA {
-  display: none;
-}
-
-.recipetypeB {
-  display: block;
-}
-
-/* For Small devices and up (≥480px) */
-@media screen and (max-width: 480px) {
-  .recipetypeA {
-    display: none;
-  }
-
-  .recipetypeB {
-    display: none;
-  }
-}
-
-/* For Medium devices and up (≥768px) */
-@media screen and (max-width: 768px) {
-  .recipetypeA {
-    display: block;
-  }
-
-  .recipetypeB {
-    display: none;
-  }
-}
-
-/* For Large devices and up (≥992px) */
-@media screen and (max-width: 992px) {
-  .recipetypeA {
-    display: block;
-  }
-
-  .recipetypeB {
-    display: none;
-  }
+.t {
+  color: rgb(7, 193, 7);
 }
