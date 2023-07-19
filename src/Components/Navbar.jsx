@@ -7,18 +7,19 @@ import icon from '../Images/Icons/favicon.png'
 
 const Navbar = () => {
   return (
-    <Box w='100%'>
+    <Box w='100%' pos={'fixed'} zIndex={99}>
       <Flex justifyContent='space-evenly' h='80px' alignItems='center' bg='white'>
         <Flex gap='30px'>
           <Box>
             <Search2Icon />
           </Box>
-          <Flex gap='30px' fontSize='20px'>
+          <Flex gap='30px' fontSize='20px' colorScheme='primary'>
             <NavLink>Recipes</NavLink>
             <NavLink>Articles</NavLink>
             <NavLink>Videos</NavLink>
           </Flex>
         </Flex>
+      
         <Flex>
           {/* <Image src={icon} w='100px' /> */}
           <Heading>RecipeSnap</Heading>
