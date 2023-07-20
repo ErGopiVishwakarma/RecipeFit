@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { Box, Text } from "@chakra-ui/react";
 
-import BannerRecipePage from "../Components/BannerRecipePage";
-import RecipePageSearch from "../Components/RecipePageSearch";
-import FilterRecipes from "../Components/FilterRecipes";
+import BannerRecipePage from "../Components/RecipesPage/BannerRecipePage";
+import RecipePageSearch from "../Components/RecipesPage/RecipePageSearch";
+import FilterRecipes from "../Components/RecipesPage/FilterRecipes";
 
 const RecipesPage = () => {
   useEffect(() => {
