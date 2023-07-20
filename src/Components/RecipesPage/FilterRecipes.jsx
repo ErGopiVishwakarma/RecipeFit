@@ -1,4 +1,4 @@
-import * as css from "../Styles/FilterRecipeStyles";
+import * as css from "../../Styles/FilterRecipeStyles";
 import React, { useState, useEffect } from "react";
 import {
   useBreakpointValue,
