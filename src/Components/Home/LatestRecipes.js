@@ -1,6 +1,6 @@
-import { Button, Flex, Grid, Heading, Image, Text } from '@chakra-ui/react'
-import React from 'react'
-import {latestRecipes} from './Dummy.js'
+import { Button, Flex, Grid, Heading, Image, Text } from "@chakra-ui/react";
+import React from "react";
+import { latestRecipes } from "./Dummy.js";
 
 const LatestRecipes = () => {
   return (
@@ -20,7 +20,7 @@ const LatestRecipes = () => {
         </Grid>
         <Button bg='red.700' colorScheme='white' m='auto' my='30px'>more +</Button>
     </Flex>
-  )
-}
+  );
+};
 
-export default LatestRecipes
+export default LatestRecipes;

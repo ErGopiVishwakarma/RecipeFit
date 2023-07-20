@@ -1,3 +1,4 @@
+
 import { Flex, Grid, Heading, Image, Text } from '@chakra-ui/react'
 import React from 'react'
 import { latestArticles } from './Dummy'
@@ -25,4 +26,4 @@ const LatestArticles = () => {
     )
 }
 
-export default LatestArticles
+export default LatestArticles;

@@ -1,7 +1,6 @@
-import { Flex, Grid, Heading, Image, Text } from '@chakra-ui/react'
-import React from 'react'
-import { latestVideos } from './Dummy'
-
+import { Flex, Grid, Heading, Image, Text } from "@chakra-ui/react";
+import React from "react";
+import { latestVideos } from "./Dummy";
 
 const LatestVideo = () => {
     return (
@@ -23,4 +22,5 @@ const LatestVideo = () => {
     )
 }
 
-export default LatestVideo
+
+export default LatestVideo;

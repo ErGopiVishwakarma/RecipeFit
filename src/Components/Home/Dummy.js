@@ -1,29 +1,29 @@
-export const latestRecipes  = [
-    {
-        title: "Gado Gado on Toast",
-        img: "https://cdn.pickuplimes.com/cache/96/3b/963b4da712066e5d68a0413f8b9ffa53.jpg"
-    },
-    {
-        title: "Gado Gado on Toast",
-        img: "https://cdn.pickuplimes.com/cache/96/3b/963b4da712066e5d68a0413f8b9ffa53.jpg"
-    },
-    {
-        title: "Gado Gado on Toast",
-        img: "https://cdn.pickuplimes.com/cache/96/3b/963b4da712066e5d68a0413f8b9ffa53.jpg"
-    },
-    {
-        title: "Gado Gado on Toast",
-        img: "https://cdn.pickuplimes.com/cache/96/3b/963b4da712066e5d68a0413f8b9ffa53.jpg"
-    },
-    {
-        title: "Gado Gado on Toast",
-        img: "https://cdn.pickuplimes.com/cache/96/3b/963b4da712066e5d68a0413f8b9ffa53.jpg"
-    },
-    {
-        title: "Gado Gado on Toast",
-        img: "https://cdn.pickuplimes.com/cache/96/3b/963b4da712066e5d68a0413f8b9ffa53.jpg"
-    }
-]
+export const latestRecipes = [
+  {
+    title: "Gado Gado on Toast",
+    img: "https://cdn.pickuplimes.com/cache/96/3b/963b4da712066e5d68a0413f8b9ffa53.jpg",
+  },
+  {
+    title: "Gado Gado on Toast",
+    img: "https://cdn.pickuplimes.com/cache/96/3b/963b4da712066e5d68a0413f8b9ffa53.jpg",
+  },
+  {
+    title: "Gado Gado on Toast",
+    img: "https://cdn.pickuplimes.com/cache/96/3b/963b4da712066e5d68a0413f8b9ffa53.jpg",
+  },
+  {
+    title: "Gado Gado on Toast",
+    img: "https://cdn.pickuplimes.com/cache/96/3b/963b4da712066e5d68a0413f8b9ffa53.jpg",
+  },
+  {
+    title: "Gado Gado on Toast",
+    img: "https://cdn.pickuplimes.com/cache/96/3b/963b4da712066e5d68a0413f8b9ffa53.jpg",
+  },
+  {
+    title: "Gado Gado on Toast",
+    img: "https://cdn.pickuplimes.com/cache/96/3b/963b4da712066e5d68a0413f8b9ffa53.jpg",
+  },
+];
 
 export const latestVideos  = [
     {
@@ -85,4 +85,5 @@ export const latestArticles  = [
         subheading: 'plant-based eating made easy (+ complete)'
     }
 ]
+
 
