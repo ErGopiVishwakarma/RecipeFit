@@ -1,0 +1,1491 @@
+{
+  "dessert": [
+    {
+      "title": "Vegan Pumpkin Pie",
+      "category": "Dessert",
+      "time": "90 mins",
+      "discription": "Vegan pumpkin pie is a rich and creamy dessert that captures the comforting flavors of fall. Made without any animal products, this plant-based version of the classic pumpkin pie is sure to delight everyone at your table.",
+      "img": "https://cdn.pickuplimes.com/cache/23/13/23138560e5a2e1533515d820bbd709d6.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/79/63/7963d4614b9f05112aa5341b1509b614.jpg",
+        "https://cdn.pickuplimes.com/cache/5e/08/5e08b0a494afc9ebb0d2670420ab7dc5.jpg",
+        "https://cdn.pickuplimes.com/cache/90/c5/90c52dff8aa40989b9aa830911811bdb.jpg",
+        "https://cdn.pickuplimes.com/cache/5e/f3/5ef33339f242a98e711b50fdb6270640.jpg"
+      ],
+      "directions": [
+        "Preheat your oven to 350°F (175°C).",
+        "In a large mixing bowl, whisk together the pumpkin puree, coconut milk, maple syrup, cornstarch, ground cinnamon, ground ginger, ground nutmeg, ground cloves, and salt until well combined and smooth.",
+        "Pour the pumpkin filling into the vegan pie crust, spreading it out evenly.",
+        "Bake the vegan pumpkin pie in the preheated oven for about 50-60 minutes or until the edges are set, and the center is slightly jiggly.",
+        "Once baked, remove the pie from the oven and let it cool on a wire rack.",
+        "Refrigerate the pie for at least 4 hours or overnight to allow it to set completely.",
+        "Serve slices of the vegan pumpkin pie with a dollop of coconut whipped cream, if desired.",
+        "Enjoy this delicious and dairy-free vegan pumpkin pie as a delightful treat during the fall season or any time of the year!"
+      ],
+      "ingredients": [
+        {
+          "ingredient": "Pumpkin puree",
+          "unit": "cups",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Coconut milk (full fat)",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Maple syrup",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Cornstarch",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Ground cinnamon",
+          "unit": "teaspoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Ground ginger",
+          "unit": "teaspoons",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Ground nutmeg",
+          "unit": "teaspoons",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Ground cloves",
+          "unit": "teaspoons",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Salt",
+          "unit": "teaspoons",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Vegan pie crust",
+          "unit": "1",
+          "quantity": null
+        },
+        {
+          "ingredient": "Coconut whipped cream (optional, for serving)",
+          "unit": "for serving",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Homemade Pie Crust",
+      "category": "Dessert",
+      "time": "60 mins",
+      "discription": "Homemade pie crust is a flaky and buttery pastry that forms the perfect base for a variety of sweet and savory pies. Making your own pie crust from scratch is simple and rewarding, and it elevates the taste of your homemade pies to a whole new level.",
+      "img": "https://cdn.pickuplimes.com/cache/ac/ef/acef0fc719706e2ceb6d996ae139755d.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/4a/f2/4af2a5c94629bc818ca5110467a1d6f7.jpg",
+        "https://cdn.pickuplimes.com/cache/34/a5/34a51d02bafb7bfc400f23cb88db92c6.jpg",
+        "https://cdn.pickuplimes.com/cache/3c/84/3c84e8664beb944a96f1e14c3834bed9.jpg",
+        "https://cdn.pickuplimes.com/cache/4a/1b/4a1bb335f79fd347f273b0db45473f96.jpg"
+      ],
+      "directions": [
+        "In a large mixing bowl, combine the all-purpose flour, chilled and cubed unsalted butter, granulated sugar (if making a sweet pie crust), and salt.",
+        "Using a pastry cutter or your fingertips, work the butter into the flour mixture until it resembles coarse crumbs with some pea-sized butter pieces remaining. The key is to keep the butter cold to achieve a flaky crust.",
+        "Gradually add the ice-cold water, 1 tablespoon at a time, and mix the dough with a fork or your hands until it starts to come together. Be careful not to over-mix the dough, as it can result in a tough crust.",
+        "Once the dough holds together when pressed, divide it into two equal portions.",
+        "Shape each portion into a disc and wrap them separately in plastic wrap.",
+        "Refrigerate the wrapped dough discs for at least 30 minutes to allow the gluten to relax and the butter to firm up.",
+        "After chilling, remove one dough disc from the refrigerator and let it sit at room temperature for a few minutes to make it easier to roll.",
+        "On a lightly floured surface, roll out the dough into a circle that is about 1/8 inch thick and slightly larger than your pie dish.",
+        "Gently transfer the rolled-out dough to the pie dish and press it lightly into the bottom and sides.",
+        "Trim any excess dough hanging over the edges of the pie dish.",
+        "If making a single crust pie, you can crimp the edges decoratively. For a double crust pie, add the filling and then repeat the rolling process with the second dough disc to create the top crust. Seal and crimp the edges together.",
+        "Refrigerate the pie crust for about 15 minutes before baking to prevent it from shrinking during baking.",
+        "Follow the recipe instructions for your specific pie filling and baking time.",
+        "Enjoy your homemade pie with the flaky and delicious crust you made from scratch!"
+      ],
+      "ingredients": [
+        {
+          "ingredient": "All-purpose flour",
+          "unit": "cups",
+          "quantity": 2.5
+        },
+        {
+          "ingredient": "Unsalted butter, chilled and cubed",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Granulated sugar (for sweet pies, optional)",
+          "unit": "tablespoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Salt",
+          "unit": "teaspoons",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Ice-cold water",
+          "unit": "tablespoons",
+          "quantity": -2
+        }
+      ]
+    },
+    {
+      "title": "Caramel Shards",
+      "category": "Dessert",
+      "time": "20 mins",
+      "discription": "Caramel shards are a delightful and crunchy treat that can be used as a garnish for cakes, cupcakes, ice cream, and other desserts. They add a sweet and elegant touch to your creations, and making them at home is surprisingly easy.",
+      "img": "https://cdn.pickuplimes.com/cache/65/9a/659ae8cd794e58bfdaa3ad7ae74e40a1.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/d6/d4/d6d4ec8ea48329b79b90146d85e38b06.jpg",
+        "https://cdn.pickuplimes.com/cache/1a/55/1a5590ea27b27dfe9f838b9524a92a59.jpg",
+        "https://cdn.pickuplimes.com/cache/c6/5d/c65daea8b46c145a26c7f74b45929288.jpg",
+        "https://cdn.pickuplimes.com/cache/d8/19/d819f4726d748dfc74e6183e0a11f72b.jpg"
+      ],
+      "directions": [
+        "Line a baking sheet with parchment paper or a silicone baking mat and set it aside.",
+        "In a heavy-bottomed saucepan, combine the granulated sugar and water over medium heat.",
+        "Stir the mixture gently until the sugar dissolves completely.",
+        "Once the sugar has dissolved, stop stirring and let the mixture come to a boil. Continue to boil the sugar syrup until it reaches a deep amber color. Be careful not to let it burn, as caramel can quickly turn from amber to burnt.",
+        "Once the desired amber color is achieved, remove the saucepan from the heat.",
+        "Add the cubed unsalted butter to the caramel and stir until the butter is fully melted and incorporated. Be cautious, as the mixture will bubble vigorously when the butter is added.",
+        "If desired, stir in the sea salt to create a salty-sweet flavor profile.",
+        "Carefully pour the hot caramel onto the prepared baking sheet, spreading it out into a thin layer using a heat-resistant spatula.",
+        "Let the caramel cool and harden completely at room temperature. This should take about 15-20 minutes.",
+        "Once the caramel has hardened, break it into irregular shards using your hands or a knife.",
+        "Store the caramel shards in an airtight container at room temperature until ready to use.",
+        "Garnish your cakes, cupcakes, ice cream, and other desserts with these delicious caramel shards for added crunch and sweetness.",
+        "Enjoy the delightful texture and flavor of these homemade caramel shards!"
+      ],
+      "ingredients": [
+        {
+          "ingredient": "Granulated sugar",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Water",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Unsalted butter, cubed",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Sea salt (optional, for a salty-sweet flavor)",
+          "unit": "teaspoons",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Layered Chocolate Raspberry Mousse",
+      "category": "Dessert",
+      "time": "90 mins",
+      "discription": "Layered chocolate raspberry mousse is a luxurious and decadent dessert that combines rich chocolate mousse with luscious raspberry mousse for a delightful treat. This dessert is perfect for special occasions or when you want to impress your guests with an elegant and delicious sweet finale to a meal.",
+      "img": "https://cdn.pickuplimes.com/cache/5c/96/5c96e04bf184d165160bf71084bf5e21.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/6c/97/6c97b6c80626f9aa0833357bf9c69d83.jpg",
+        "https://cdn.pickuplimes.com/cache/60/3e/603efe4b8b87b42fe95139ece34c9bae.jpg",
+        "https://cdn.pickuplimes.com/cache/c7/da/c7dae1d0ae958218bab4028bf2b21392.jpg",
+        "https://cdn.pickuplimes.com/cache/ea/25/ea25cb5e010d6f09812c579769eb12fc.jpg"
+      ],
+      "directions": [
+        "In a heatproof bowl, melt the chopped semi-sweet chocolate over a pot of simmering water (double boiler). Stir until smooth, then set aside to cool slightly.",
+        "In a separate bowl, whip the heavy cream until soft peaks form.",
+        "In another bowl, whisk together the egg yolks and granulated sugar until pale and creamy.",
+        "Slowly pour the melted chocolate into the egg yolk mixture while continuously whisking to avoid cooking the eggs.",
+        "Fold the whipped cream into the chocolate mixture until well combined. This creates the chocolate mousse layer.",
+        "In a small bowl, sprinkle the gelatin powder over the water and let it sit for a minute to bloom.",
+        "In a saucepan, gently heat the raspberry puree until warm (do not boil). Stir in the bloomed gelatin until completely dissolved.",
+        "Let the raspberry mixture cool slightly before folding in the remaining whipped cream. This creates the raspberry mousse layer.",
+        "In serving glasses or dessert cups, start layering the chocolate mousse and raspberry mousse alternately. You can use a piping bag for more precise layers.",
+        "Chill the layered chocolate raspberry mousse in the refrigerator for at least 1 hour to set.",
+        "Before serving, garnish the mousse with fresh raspberries and chocolate shavings.",
+        "Enjoy this indulgent and delightful layered chocolate raspberry mousse as a perfect ending to your special meal!"
+      ],
+      "ingredients": [
+        {
+          "ingredient": "Semi-sweet chocolate, chopped",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Heavy cream",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Egg yolks",
+          "unit": "2",
+          "quantity": null
+        },
+        {
+          "ingredient": "Granulated sugar",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Vanilla extract",
+          "unit": "teaspoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Raspberry puree (strained to remove seeds)",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Gelatin powder",
+          "unit": "teaspoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Water",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Fresh raspberries (for garnish)",
+          "unit": "for garnish",
+          "quantity": null
+        },
+        {
+          "ingredient": "Chocolate shavings (for garnish)",
+          "unit": "for garnish",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Coconut Mango Passion Fruit Trifle",
+      "category": "Dessert",
+      "time": "45 mins",
+      "discription": "Coconut mango passion fruit trifle is a tropical and luscious dessert that showcases the vibrant flavors of coconut, mango, and passion fruit. Layered with fluffy coconut sponge cake, juicy mango cubes, velvety passion fruit curd, and whipped coconut cream, this trifle is a refreshing and delightful treat for any occasion.",
+      "img": "https://cdn.pickuplimes.com/cache/ad/75/ad755c83032fe051fa7b5d2d8286ebd3.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/83/2f/832f225b79e6af8573539f12053cc21e.jpgs",
+        "https://cdn.pickuplimes.com/cache/88/7b/887b94e64267b4d32f9cb2b639135891.jpg",
+        "https://cdn.pickuplimes.com/cache/8b/ad/8bad0c885ec358814df2b4c253b0500c.jpg",
+        "https://cdn.pickuplimes.com/cache/8e/ad/8ead428aa4f2e431ed6b7b8c4a88d8e7.jpg"
+      ],
+      "directions": [
+        "In a trifle dish or individual serving glasses, start assembling the trifle by layering the cubed coconut sponge cake at the bottom.",
+        "Top the cake layer with a generous amount of diced ripe mangoes.",
+        "Spread a layer of passion fruit curd over the mangoes. If you can't find passion fruit curd, you can make it by mixing passion fruit pulp with sugar and butter and heating it until thickened.",
+        "Repeat the layers of cake, mangoes, and passion fruit curd until the trifle dish or glasses are filled, finishing with a layer of mangoes on top.",
+        "In a separate bowl, whip the coconut cream and powdered sugar together until it forms soft peaks. Coconut cream can be obtained by chilling a can of full-fat coconut milk in the refrigerator overnight and scooping out the thick cream that separates.",
+        "Spread the whipped coconut cream over the top layer of mangoes.",
+        "Garnish the coconut mango passion fruit trifle with toasted coconut flakes and fresh mint leaves for a beautiful presentation.",
+        "Chill the trifle in the refrigerator for at least 30 minutes before serving to allow the flavors to meld together.",
+        "Serve this tropical and delightful coconut mango passion fruit trifle to impress your guests and enjoy the burst of flavors!"
+      ],
+      "ingredients": [
+        {
+          "ingredient": "Coconut sponge cake, cubed",
+          "unit": "cups",
+          "quantity": 4
+        },
+        {
+          "ingredient": "Ripe mango, diced",
+          "unit": "cups",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Passion fruit curd",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Coconut cream",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Powdered sugar",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Toasted coconut flakes (for garnish)",
+          "unit": "for garnish",
+          "quantity": null
+        },
+        {
+          "ingredient": "Fresh mint leaves (for garnish)",
+          "unit": "for garnish",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Vegan Chocolate Cake",
+      "category": "Dessert",
+      "time": "60 mins",
+      "discription": "Vegan chocolate cake is a moist and decadent dessert that proves you can enjoy a delicious cake without using any animal products. This eggless and dairy-free chocolate cake is a delightful treat for vegans and non-vegans alike.",
+      "img": "https://cdn.pickuplimes.com/cache/3e/db/3edbe8d2b6690ce42b4bbc5a81f42afc.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/61/56/6156c790a282efbef201ca6ef4036171.jpg",
+        "https://cdn.pickuplimes.com/cache/ad/33/ad335dd7382d6a2f505c67e486cf0e31.jpg",
+        "https://cdn.pickuplimes.com/cache/8a/b3/8ab3cbd83b07e312537315f8fc11b471.jpg",
+        "https://cdn.pickuplimes.com/cache/2c/37/2c37fb7549cbfea083d70fe3482a1d97.jpg"
+      ],
+      "directions": [
+        "Preheat your oven to 350°F (175°C). Grease and flour two 8-inch round cake pans or line them with parchment paper.",
+        "In a large mixing bowl, whisk together the all-purpose flour, granulated sugar, cocoa powder, baking powder, baking soda, and salt.",
+        "Add the vegetable oil, almond milk, applesauce, and vanilla extract to the dry ingredients.",
+        "Mix the ingredients until the batter is smooth and well combined. Be careful not to overmix.",
+        "Stir in the boiling water into the batter. The batter will be thin, which is normal.",
+        "Divide the batter evenly between the prepared cake pans.",
+        "Bake the cakes in the preheated oven for about 25-30 minutes or until a toothpick inserted into the center comes out clean.",
+        "Once baked, remove the cakes from the oven and let them cool in the pans for about 10 minutes before transferring them to a wire rack to cool completely.",
+        "If desired, you can frost the cooled cakes with vegan chocolate ganache or any other frosting of your choice.",
+        "Optionally, garnish the vegan chocolate cake with fresh berries and dust with powdered sugar for a decorative touch.",
+        "Slice and serve this delicious vegan chocolate cake to enjoy a delectable dessert that is free from animal products."
+      ],
+      "ingredients": [
+        {
+          "ingredient": "All-purpose flour",
+          "unit": "cups",
+          "quantity": 1.5
+        },
+        {
+          "ingredient": "Granulated sugar",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Cocoa powder",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Baking powder",
+          "unit": "teaspoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Baking soda",
+          "unit": "teaspoons",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Salt",
+          "unit": "teaspoons",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Vegetable oil",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Almond milk (or any non-dairy milk)",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Applesauce",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Vanilla extract",
+          "unit": "teaspoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Boiling water",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Vegan chocolate ganache (for frosting, optional)",
+          "unit": "for frosting",
+          "quantity": null
+        },
+        {
+          "ingredient": "Fresh berries (for garnish, optional)",
+          "unit": "for garnish",
+          "quantity": null
+        },
+        {
+          "ingredient": "Powdered sugar (for dusting, optional)",
+          "unit": "for dusting",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Shir Berinj - Afghan Rice Pudding",
+      "category": "Dessert",
+      "time": "90 mins",
+      "discription": "Shir Berinj is a delightful Afghan rice pudding that is creamy, aromatic, and infused with cardamom and rose water. This comforting and rich dessert is commonly enjoyed during special occasions and celebrations.",
+      "img": "https://cdn.pickuplimes.com/cache/fb/70/fb7035a59dfb6fefd38d7944c29730e7.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/ec/04/ec04d3f41224d917b73d293f8a2591b3.jpg",
+        "https://cdn.pickuplimes.com/cache/b2/e5/b2e5f71d1964915c8d53bcf3a3fa4fbd.jpg",
+        "https://cdn.pickuplimes.com/cache/81/5e/815e32674e50eb8fd8663e7fced4864c.jpg",
+        "https://cdn.pickuplimes.com/cache/e3/74/e374e3a5cfe46bccf8042ef9e1f213be.jpg"
+      ],
+      "directions": [
+        "Wash the basmati rice thoroughly and soak it in water for about 30 minutes. Drain the rice after soaking.",
+        "In a medium-sized pot, bring 2 cups of water to a boil, and then add the soaked rice. Cook the rice over medium heat until it becomes soft and fully cooked. The water should be absorbed during the cooking process.",
+        "Once the rice is cooked, add the milk to the pot and bring the mixture to a gentle simmer. Stir occasionally to prevent sticking or burning.",
+        "Gradually add the sugar and ground cardamom to the rice-milk mixture. Continue to stir until the sugar is fully dissolved.",
+        "Let the rice pudding simmer on low heat for about 30-40 minutes until it thickens and develops a creamy consistency.",
+        "Stir in the rose water to infuse the pudding with its aromatic flavor. Adjust the sweetness to your preference by adding more sugar if needed.",
+        "Remove the pot from the heat and let the rice pudding cool slightly.",
+        "Serve the Shir Berinj in individual bowls or a large serving dish.",
+        "Garnish the rice pudding with slivered almonds, pistachios, ground cinnamon, and dried rose petals, if desired, for an extra touch of flavor and elegance.",
+        "You can enjoy Shir Berinj warm or chilled, making it a versatile and delightful dessert for any occasion."
+      ],
+      "ingredients": [
+        {
+          "ingredient": "Basmati rice",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Water",
+          "unit": "cups",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Milk",
+          "unit": "cups",
+          "quantity": 4
+        },
+        {
+          "ingredient": "Sugar",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Ground cardamom",
+          "unit": "teaspoons",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Rose water",
+          "unit": "teaspoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Slivered almonds (for garnish)",
+          "unit": "for garnish",
+          "quantity": null
+        },
+        {
+          "ingredient": "Pistachios (for garnish)",
+          "unit": "for garnish",
+          "quantity": null
+        },
+        {
+          "ingredient": "Ground cinnamon (for garnish)",
+          "unit": "for garnish",
+          "quantity": null
+        },
+        {
+          "ingredient": "Dried rose petals (for garnish, optional)",
+          "unit": "for garnish",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Double Chocolate Mug Cake",
+      "category": "Dessert",
+      "time": "5 mins",
+      "discription": "Double chocolate mug cake is a quick and indulgent dessert that can be whipped up in just a few minutes. This single-serving cake is perfect for satisfying your chocolate cravings when you want a sweet treat in a hurry.",
+      "img": "https://cdn.pickuplimes.com/cache/ca/cc/cacce0d3c7d198cfcf68adff599643eb.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/14/31/1431a02531c8ac5811325502b6241ad6.jpg",
+        "https://cdn.pickuplimes.com/cache/54/d3/54d3bea09cb16c5e1d7973a6891e82f0.jpg",
+        "https://cdn.pickuplimes.com/cache/59/41/5941cb5eba899f50b9beef3ca58c8e5b.jpg",
+        "https://cdn.pickuplimes.com/cache/7e/b0/7eb09937c94b7a5b66235e758cd1add9.jpg"
+      ],
+      "directions": [
+        "In a microwave-safe mug, whisk together the all-purpose flour, granulated sugar, cocoa powder, baking powder, and a pinch of salt.",
+        "Add the milk, vegetable oil, and vanilla extract to the dry ingredients in the mug. Mix until the batter is smooth and no lumps remain.",
+        "Stir in the chocolate chips to distribute them evenly throughout the batter.",
+        "Place the mug in the microwave and cook on high for about 1 minute and 30 seconds to 2 minutes. Cooking time may vary depending on your microwave's power. The cake should rise and become firm to the touch.",
+        "Remove the mug from the microwave, and let the double chocolate mug cake cool for a minute or two before serving.",
+        "If desired, dust the top of the mug cake with powdered sugar for a decorative touch.",
+        "You can enjoy the double chocolate mug cake as is or add a scoop of vanilla ice cream on top for an extra indulgent treat.",
+        "Dig in and savor the warm and chocolaty goodness of this quick and delightful dessert!"
+      ],
+      "ingredients": [
+        {
+          "ingredient": "All-purpose flour",
+          "unit": "tablespoons",
+          "quantity": 4
+        },
+        {
+          "ingredient": "Granulated sugar",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Cocoa powder",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Baking powder",
+          "unit": "teaspoons",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Salt",
+          "unit": "pinch",
+          "quantity": null
+        },
+        {
+          "ingredient": "Milk (non-dairy milk for vegan option)",
+          "unit": "tablespoons",
+          "quantity": 3
+        },
+        {
+          "ingredient": "Vegetable oil",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Vanilla extract",
+          "unit": "teaspoons",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Chocolate chips",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Powdered sugar (for dusting, optional)",
+          "unit": "for dusting",
+          "quantity": null
+        },
+        {
+          "ingredient": "Vanilla ice cream (for serving, optional)",
+          "unit": "for serving",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Vegan Apple Pie",
+      "category": "Dessert",
+      "time": "90 mins",
+      "discription": "Vegan apple pie is a delicious and comforting dessert that showcases the natural sweetness of apples and a flaky, buttery crust, all without using any animal products. This plant-based version of the classic apple pie is perfect for vegans and anyone who loves a scrumptious apple-filled treat.",
+      "img": "https://cdn.pickuplimes.com/cache/75/64/7564a080fd361440002662320e754347.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/8e/c9/8ec988dc3d386464d5ed1cc6ff56653b.jpg",
+        "https://cdn.pickuplimes.com/cache/93/f8/93f87a2eda788d9d212c5b554684b221.jpg",
+        "https://cdn.pickuplimes.com/cache/73/1a/731a16bf5807324bdb0fe6d4daf7a674.jpg",
+        "https://cdn.pickuplimes.com/cache/35/76/357684ed849aa1b382c3af20487a363d.jpg"
+      ],
+      "directions": [
+        "Preheat your oven to 375°F (190°C).",
+        "Roll out the vegan pie crust and line a 9-inch pie dish with it. Trim any excess dough hanging over the edges and crimp the edges decoratively.",
+        "In a large mixing bowl, combine the sliced apples, granulated sugar, brown sugar, lemon juice, cornstarch, ground cinnamon, ground nutmeg, salt, and vanilla extract. Toss the mixture until the apples are well coated with the sugar and spices.",
+        "Transfer the apple filling to the prepared pie crust, spreading it out evenly.",
+        "Dot the top of the apple filling with small pieces of vegan butter.",
+        "Cover the pie with the second rolled-out pie crust if making a double-crust pie. If making a lattice crust, cut the second crust into strips and create a lattice pattern over the apple filling.",
+        "Brush the top crust (or lattice) with plant-based milk to give it a golden color while baking.",
+        "Sprinkle coarse sugar over the top crust for added sweetness and a sparkling appearance.",
+        "Bake the vegan apple pie in the preheated oven for about 50-60 minutes or until the crust is golden brown, and the apple filling is bubbling and cooked through.",
+        "If the crust starts to brown too quickly during baking, you can cover it with aluminum foil to prevent further browning.",
+        "Once baked, remove the apple pie from the oven and let it cool on a wire rack before serving.",
+        "Enjoy a slice of warm and fragrant vegan apple pie on its own or with a scoop of your favorite dairy-free ice cream!"
+      ],
+      "ingredients": [
+        {
+          "ingredient": "Vegan pie crust (store-bought or homemade)",
+          "unit": "1",
+          "quantity": null
+        },
+        {
+          "ingredient": "Apples (a mix of sweet and tart varieties), peeled, cored, and sliced",
+          "unit": "cups",
+          "quantity": 6
+        },
+        {
+          "ingredient": "Granulated sugar",
+          "unit": "tablespoons",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Brown sugar",
+          "unit": "tablespoons",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Lemon juice",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Cornstarch",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Ground cinnamon",
+          "unit": "teaspoons",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Ground nutmeg",
+          "unit": "teaspoons",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Salt",
+          "unit": "teaspoons",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Vanilla extract",
+          "unit": "teaspoons",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Vegan butter, cut into small pieces",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Plant-based milk (for brushing the crust)",
+          "unit": "tablespoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Coarse sugar (for sprinkling on top)",
+          "unit": "tablespoons",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "title": "Chocolate Coconut Nut Butter Balls",
+      "category": "Dessert",
+      "time": "20 mins",
+      "discription": "Chocolate coconut nut butter balls are a delightful and energy-boosting snack that combines the rich flavors of chocolate and coconut with the nutty goodness of nut butter. These no-bake treats are perfect for satisfying your sweet cravings and providing a quick source of energy on the go.",
+      "img": "https://cdn.pickuplimes.com/cache/08/be/08bee1e1be1fde9216c126af2f8260ed.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/14/f0/14f0bc97949c2dfd619008429ff49bb8.jpg",
+        "https://cdn.pickuplimes.com/cache/f2/f3/f2f3c95a9ae40c0c079f74a3c44de314.jpg",
+        "https://cdn.pickuplimes.com/cache/b5/11/b511c8e1e18600529b19a806efbb4638.jpg",
+        "https://cdn.pickuplimes.com/cache/26/52/26526d1299ace0467667e4ca542928ac.jpg"
+      ],
+      "directions": [
+        "In a large mixing bowl, combine the nut butter, coconut flour, maple syrup, and vanilla extract. Mix until the ingredients are well combined and form a dough-like consistency.",
+        "Stir in the shredded coconut to add texture and flavor to the mixture.",
+        "Using your hands, roll the dough into bite-sized balls and place them on a parchment-lined baking sheet. If the mixture is too sticky, you can refrigerate it for a few minutes to make it easier to handle.",
+        "In a microwave-safe bowl, melt the dark chocolate chips and coconut oil in the microwave, stirring every 20 seconds until smooth.",
+        "Dip each nut butter ball into the melted chocolate, coating it evenly.",
+        "Place the chocolate-coated balls back on the parchment-lined baking sheet.",
+        "If desired, sprinkle a pinch of sea salt over the chocolate-coated balls for a delightful sweet-savory contrast.",
+        "Refrigerate the chocolate coconut nut butter balls for about 10-15 minutes to allow the chocolate to set.",
+        "Once the chocolate coating is firm, the balls are ready to enjoy!",
+        "Store any leftovers in an airtight container in the refrigerator for future snacking.",
+        "Indulge in the chocolatey goodness of these nutritious and delicious chocolate coconut nut butter balls whenever you need a quick pick-me-up or a satisfying treat!"
+      ],
+      "ingredients": [
+        {
+          "ingredient": "Nut butter (e.g., almond butter, peanut butter)",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Coconut flour",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Maple syrup",
+          "unit": "tablespoons",
+          "quantity": 3
+        },
+        {
+          "ingredient": "Vanilla extract",
+          "unit": "teaspoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Shredded coconut (unsweetened)",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Dark chocolate chips (dairy-free for vegan option)",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Coconut oil",
+          "unit": "tablespoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Sea salt (optional, for sprinkling)",
+          "unit": "pinch",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Vegan Blueberry Mug Cake",
+      "category": "Dessert",
+      "time": "5 mins",
+      "discription": "Vegan blueberry mug cake is a quick and delightful dessert that can be made in just a few minutes. Bursting with juicy blueberries and infused with vanilla flavor, this single-serving cake is a perfect way to satisfy your sweet cravings in no time.",
+      "img": "https://cdn.pickuplimes.com/cache/8c/a5/8ca5da953dbfdbd5e97c944dd372873e.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/27/28/2728c427824f0cccf25f7b7f7bfcb19e.jpg",
+        "https://cdn.pickuplimes.com/cache/c7/d9/c7d91201da4e083f1fbd9cde1afd3af4.jpg",
+        "https://cdn.pickuplimes.com/cache/66/b2/66b2416e08df4bc658fd492d6c051c79.jpg",
+        "https://cdn.pickuplimes.com/cache/85/e6/85e62e0fccf6d7500302f6b4484acad8.jpg"
+      ],
+      "directions": [
+        "In a microwave-safe mug, whisk together the all-purpose flour, granulated sugar, baking powder, and a pinch of salt.",
+        "Add the almond milk, vegetable oil, and vanilla extract to the dry ingredients in the mug. Mix until the batter is smooth and no lumps remain.",
+        "Gently fold in the blueberries into the batter, distributing them evenly throughout.",
+        "Place the mug in the microwave and cook on high for about 1 minute and 30 seconds to 2 minutes. Cooking time may vary depending on your microwave's power. The cake should rise and become firm to the touch.",
+        "Remove the mug from the microwave, and let the blueberry mug cake cool for a minute or two before serving.",
+        "If desired, drizzle some maple syrup over the top of the cake for added sweetness and a burst of flavor.",
+        "Indulge in the warm and fruity goodness of this vegan blueberry mug cake for a delightful dessert experience."
+      ],
+      "ingredients": [
+        {
+          "ingredient": "All-purpose flour",
+          "unit": "tablespoons",
+          "quantity": 4
+        },
+        {
+          "ingredient": "Granulated sugar",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Baking powder",
+          "unit": "teaspoons",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Salt",
+          "unit": "pinch",
+          "quantity": null
+        },
+        {
+          "ingredient": "Almond milk (or any non-dairy milk)",
+          "unit": "tablespoons",
+          "quantity": 3
+        },
+        {
+          "ingredient": "Vegetable oil",
+          "unit": "tablespoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Vanilla extract",
+          "unit": "teaspoons",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Blueberries",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Maple syrup (for drizzling, optional)",
+          "unit": "for drizzling",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Raspberry Rose Chocolate Bark",
+      "category": "Dessert",
+      "time": "60 mins",
+      "discription": "Raspberry rose chocolate bark is a luxurious and visually stunning treat that combines the sweetness of raspberries, the floral notes of rose, and the richness of dark chocolate. This delightful bark is perfect for gifting or indulging in a moment of self-pampering.",
+      "img": "https://cdn.pickuplimes.com/cache/00/92/00922e458139c741c4dcae6b7dcd9265.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/aa/04/aa04a39b0d45aa18a59d5607f98436f0.jpg",
+        "https://cdn.pickuplimes.com/cache/9b/63/9b63c29b197e0f3b803ed67f6def6a4e.jpg",
+        "https://cdn.pickuplimes.com/cache/38/ab/38abdd84623212e633d5c65a49d640e5.jpg",
+        "https://cdn.pickuplimes.com/cache/d8/73/d873e952b7c2f684c9e15518fd78b677.jpg"
+      ],
+      "directions": [
+        "Line a baking sheet or tray with parchment paper and set it aside.",
+        "In a microwave-safe bowl, melt the dark chocolate in the microwave, stirring every 20 seconds until smooth.",
+        "Stir in the dried raspberries, edible dried rose petals, and rose water into the melted chocolate. Mix until the ingredients are well combined.",
+        "Pour the chocolate mixture onto the prepared parchment paper and spread it out into an even layer with a spatula.",
+        "Sprinkle the freeze-dried raspberry powder over the top of the chocolate bark, adding a pop of color and flavor.",
+        "If desired, decorate the bark with edible gold or silver leaf for an elegant touch.",
+        "Place the tray in the refrigerator for about 30-40 minutes to allow the chocolate bark to set completely.",
+        "Once the chocolate is firm, break the bark into irregular pieces.",
+        "Transfer the raspberry rose chocolate bark to an airtight container and store it in the refrigerator until ready to serve.",
+        "Enjoy the delightful blend of flavors and textures in this raspberry rose chocolate bark as a decadent treat or share it with loved ones as a special gift."
+      ],
+      "ingredients": [
+        {
+          "ingredient": "Dark chocolate (vegan, if preferred)",
+          "unit": "cups",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Dried raspberries",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Edible dried rose petals",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Rose water",
+          "unit": "teaspoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Freeze-dried raspberry powder",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Edible gold leaf (optional, for decoration)",
+          "unit": "for decoration",
+          "quantity": null
+        },
+        {
+          "ingredient": "Edible silver leaf (optional, for decoration)",
+          "unit": "for decoration",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Spiced Walnut & Fig Muffins",
+      "category": "Dessert",
+      "time": "40 mins",
+      "discription": "Spiced walnut & fig muffins are a delightful and flavorful treat that combines the rich taste of walnuts, the sweetness of figs, and a warm blend of spices. These muffins are perfect for breakfast or as a wholesome snack any time of the day.",
+      "img": "https://cdn.pickuplimes.com/cache/ff/97/ff973472ca42296355cff5a635ec5e50.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/c2/07/c20755ec8100799bf7d5efbc98b50095.jpg",
+        "https://cdn.pickuplimes.com/cache/f5/45/f545b29a859b63fd4c0f033c9f539326.jpg",
+        "https://cdn.pickuplimes.com/cache/48/c7/48c7c4fdb65929b303c2d1cca8442259.jpg",
+        "https://cdn.pickuplimes.com/cache/a4/0a/a40a76f12a3ab5b78bcbbc0b583d4ebe.jpg"
+      ],
+      "directions": [
+        "Preheat your oven to 375°F (190°C) and line a muffin tin with paper liners.",
+        "In a large mixing bowl, whisk together the all-purpose flour, granulated sugar, baking powder, ground cinnamon, ground nutmeg, and salt.",
+        "In a separate bowl, mix the unsweetened applesauce, vegetable oil, non-dairy milk, and vanilla extract.",
+        "Pour the wet ingredients into the dry ingredients and stir until just combined. Be careful not to overmix; the batter should be slightly lumpy.",
+        "Fold in the chopped walnuts and dried figs into the muffin batter.",
+        "Divide the batter evenly among the muffin cups, filling each one about two-thirds full.",
+        "Bake the muffins in the preheated oven for about 20-25 minutes or until a toothpick inserted into the center of a muffin comes out clean.",
+        "Remove the muffins from the oven and let them cool in the muffin tin for a few minutes before transferring them to a wire rack to cool completely.",
+        "If desired, dust the cooled muffins with powdered sugar for a decorative touch.",
+        "Enjoy the spiced walnut & fig muffins as a delightful breakfast or a wholesome snack to satisfy your taste buds."
+      ],
+      "ingredients": [
+        {
+          "ingredient": "All-purpose flour",
+          "unit": "cups",
+          "quantity": 1.5
+        },
+        {
+          "ingredient": "Granulated sugar",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Baking powder",
+          "unit": "teaspoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Ground cinnamon",
+          "unit": "teaspoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Ground nutmeg",
+          "unit": "teaspoons",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Salt",
+          "unit": "teaspoons",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Unsweetened applesauce",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Vegetable oil",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Non-dairy milk",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Vanilla extract",
+          "unit": "teaspoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Chopped walnuts",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Dried figs, chopped",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Powdered sugar (for dusting, optional)",
+          "unit": "for dusting",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Vegan Chocolate Fudge",
+      "category": "Dessert",
+      "time": "90 mins",
+      "discription": "Vegan chocolate fudge is a rich and creamy dessert that will satisfy your chocolate cravings. This dairy-free and plant-based version of the classic fudge is made with simple ingredients and is incredibly delicious.",
+      "img": "https://cdn.pickuplimes.com/cache/ef/f0/eff07880d366d8a04b560bf483bb853e.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/d0/0b/d00b616727d7f0054444eb2deb86321b.jpg",
+        "https://cdn.pickuplimes.com/cache/c6/36/c636af883e76d9938089c1e98fcbacc1.jpg",
+        "https://cdn.pickuplimes.com/cache/6e/5a/6e5a381570cf5e4030052e3ee81280e9.jpg",
+        "https://cdn.pickuplimes.com/cache/b6/c0/b6c0c87d47b9500ffb1e543a62c08fae.jpg"
+      ],
+      "directions": [
+        "Line an 8x8 inch square baking dish with parchment paper, leaving some overhang for easy removal of the fudge later.",
+        "In a medium saucepan, combine the coconut milk and granulated sugar over medium heat. Stir until the sugar is dissolved.",
+        "Once the mixture begins to simmer, reduce the heat to low, and let it cook for about 5 minutes, stirring occasionally.",
+        "Remove the saucepan from the heat and add the vegan chocolate chips, vegan butter, vanilla extract, and a pinch of salt. Stir until the chocolate chips and butter are melted and the mixture is smooth.",
+        "If desired, stir in the chopped nuts for added texture and flavor.",
+        "Pour the fudge mixture into the prepared baking dish, spreading it out into an even layer.",
+        "If desired, sprinkle sea salt flakes over the top of the fudge for a delicious sweet-savory contrast.",
+        "Place the baking dish in the refrigerator and let the fudge chill for at least 1 hour to set.",
+        "Once the fudge is firm, use the parchment paper overhang to lift it out of the baking dish.",
+        "Cut the vegan chocolate fudge into small squares or rectangles and serve.",
+        "Store any leftovers in an airtight container in the refrigerator.",
+        "Enjoy the smooth and decadent vegan chocolate fudge as a delightful treat or share it with friends and family!"
+      ],
+      "ingredients": [
+        {
+          "ingredient": "Coconut milk (full-fat)",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Granulated sugar",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Vegan chocolate chips",
+          "unit": "cups",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Vegan butter",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Vanilla extract",
+          "unit": "teaspoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Salt",
+          "unit": "pinch",
+          "quantity": null
+        },
+        {
+          "ingredient": "Chopped nuts (e.g., walnuts, almonds) (optional)",
+          "unit": "for topping",
+          "quantity": null
+        },
+        {
+          "ingredient": "Sea salt flakes (for topping, optional)",
+          "unit": "for topping",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Rocky Mountain Chocolate Bark",
+      "category": "Dessert",
+      "time": "60 mins",
+      "discription": "Rocky Mountain chocolate bark is a delightful and indulgent treat inspired by the rugged beauty of the Rocky Mountains. This rich and decadent chocolate bark is loaded with various toppings, creating a medley of flavors and textures that will satisfy any sweet tooth.",
+      "img": "https://cdn.pickuplimes.com/cache/f2/b2/f2b206f8b83f964465d1467f7e716599.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/20/7d/207dae43822942850fa6d999ffb154cb.jpg",
+        "https://cdn.pickuplimes.com/cache/74/03/74038a16bf674386a017bdfa59490a90.jpg",
+        "https://cdn.pickuplimes.com/cache/f2/b2/f2b206f8b83f964465d1467f7e716599.jpg",
+        "https://cdn.pickuplimes.com/cache/df/d0/dfd01a368b88d797ae3ce1ff47403e61.jpg"
+      ],
+      "directions": [
+        "Line a baking sheet or tray with parchment paper and set it aside.",
+        "In a microwave-safe bowl, melt the dark chocolate in the microwave, stirring every 20 seconds until smooth.",
+        "Pour the melted dark chocolate onto the prepared parchment paper, spreading it out into an even layer with a spatula.",
+        "In another microwave-safe bowl, melt the white chocolate in the microwave, stirring every 20 seconds until smooth.",
+        "Drizzle the melted white chocolate over the dark chocolate in a zigzag pattern.",
+        "Sprinkle the chopped almonds, chopped pecans, dried cranberries, and shredded coconut over the top of the melted chocolates.",
+        "Gently press down the toppings with the back of a spoon to ensure they adhere to the chocolate.",
+        "If desired, sprinkle sea salt flakes over the top of the bark for a delightful sweet-savory contrast.",
+        "Place the tray in the refrigerator for about 30-40 minutes to allow the chocolate bark to set completely.",
+        "Once the chocolate is firm, break the rocky mountain chocolate bark into irregular pieces.",
+        "Transfer the bark to an airtight container and store it in the refrigerator until ready to serve.",
+        "Indulge in the rich and delicious rocky mountain chocolate bark as a delightful treat or share it with friends and family for a delightful and indulgent experience."
+      ],
+      "ingredients": [
+        {
+          "ingredient": "Dark chocolate (vegan, if preferred)",
+          "unit": "cups",
+          "quantity": 2
+        },
+        {
+          "ingredient": "White chocolate (vegan, if preferred)",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Almonds, chopped",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Pecans, chopped",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Dried cranberries",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Shredded coconut (unsweetened)",
+          "unit": "cups",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Sea salt flakes",
+          "unit": "for sprinkling",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Almond Brownie Cookies",
+      "category": "Dessert",
+      "time": "30 mins",
+      "discription": "Almond brownie cookies are a heavenly combination of rich, fudgy brownies and chewy cookies, with the nutty flavor of almonds. These delectable cookies are perfect for chocolate lovers and will surely satisfy your sweet cravings.",
+      "img": "https://cdn.pickuplimes.com/cache/07/39/07393646ca0d65a83ca1f3ad665b38e8.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/20/77/2077f72238f9ae62f41dab8279a3ab47.jpg",
+        "https://cdn.pickuplimes.com/cache/bd/9e/bd9e9c6f9688568b2c24148cccf1d267.jpg",
+        "https://cdn.pickuplimes.com/cache/6f/45/6f457dc51cc2e55223425cca162a4458.jpg",
+        "https://cdn.pickuplimes.com/cache/aa/45/aa45d9709ee47497234edac2f200d360.jpg"
+      ],
+      "directions": [
+        "Preheat your oven to 350°F (175°C) and line a baking sheet with parchment paper.",
+        "In a microwave-safe bowl, melt the semi-sweet chocolate and vegan butter together, stirring every 20 seconds until smooth.",
+        "In a separate bowl, mix the flaxseed meal and water to create a flax egg. Let it sit for a few minutes to thicken.",
+        "Add the granulated sugar, brown sugar, and vanilla extract to the flax egg and mix well.",
+        "Pour the melted chocolate mixture into the flax egg mixture and stir until well combined.",
+        "In another bowl, whisk together the all-purpose flour, cocoa powder, baking powder, and salt.",
+        "Add the dry ingredients to the wet ingredients and mix until a thick cookie dough forms.",
+        "Fold in the sliced almonds into the cookie dough for added crunch and flavor.",
+        "Scoop about 1-2 tablespoons of cookie dough and drop it onto the prepared baking sheet, leaving enough space between each cookie.",
+        "Gently flatten each cookie slightly with your fingers or the back of a spoon.",
+        "Bake the almond brownie cookies in the preheated oven for about 10-12 minutes or until the edges are set and the tops are slightly cracked.",
+        "Remove the cookies from the oven and let them cool on the baking sheet for a few minutes before transferring them to a wire rack to cool completely.",
+        "Enjoy the delightful almond brownie cookies as a decadent treat or share them with friends and family for a moment of sweet indulgence!"
+      ],
+      "ingredients": [
+        {
+          "ingredient": "Semi-sweet chocolate (vegan, if preferred)",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Vegan butter",
+          "unit": "cups",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Granulated sugar",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Brown sugar",
+          "unit": "cups",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Flaxseed meal",
+          "unit": "tablespoons",
+          "quantity": 3
+        },
+        {
+          "ingredient": "Water",
+          "unit": "tablespoons",
+          "quantity": 6
+        },
+        {
+          "ingredient": "Vanilla extract",
+          "unit": "teaspoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "All-purpose flour",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Cocoa powder",
+          "unit": "tablespoons",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Baking powder",
+          "unit": "teaspoons",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Salt",
+          "unit": "teaspoons",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Sliced almonds",
+          "unit": "cups",
+          "quantity": 0.5
+        }
+      ]
+    },
+    {
+      "title": "Vanilla Caramel Cake",
+      "category": "Dessert",
+      "time": "90 mins",
+      "discription": "Vanilla caramel cake is a luscious and delightful dessert that combines the classic flavor of vanilla with the rich and buttery goodness of caramel. This moist and tender cake is perfect for special occasions or as a sweet treat to brighten up any day.",
+      "img": "https://cdn.pickuplimes.com/cache/56/53/5653ddbbcb4cf81ec800176921bb0229.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/4c/61/4c61ea64288ba90573f0dad743919ae0.jpg",
+        "https://cdn.pickuplimes.com/cache/07/82/07825453530b56e6fe1a3240d5bc5cb3.jpg",
+        "https://cdn.pickuplimes.com/cache/b8/8a/b88aa1ba7d4e61628cd94f10e79ddd64.jpg",
+        "https://cdn.pickuplimes.com/cache/4c/3f/4c3f4895fd50844b07c6ddfbe0e3248f.jpg"
+      ],
+      "directions": [
+        "Preheat your oven to 350°F (175°C) and grease two 8-inch round cake pans. Line the bottoms with parchment paper for easy removal.",
+        "In a medium bowl, whisk together the all-purpose flour, baking powder, and salt.",
+        "In a separate large mixing bowl, cream the vegan butter and granulated sugar together until light and fluffy.",
+        "In a small bowl, mix the flaxseed meal and water to create a flax egg. Let it sit for a few minutes to thicken.",
+        "Add the flax egg and vanilla extract to the butter-sugar mixture, and beat until well combined.",
+        "Alternate adding the dry ingredients and non-dairy milk to the wet ingredients, beginning and ending with the dry ingredients. Mix until just combined; do not overmix.",
+        "Divide the cake batter evenly between the prepared cake pans.",
+        "Drizzle the caramel sauce over the top of each cake batter in a swirling pattern.",
+        "Use a butter knife to gently swirl the caramel into the cake batter for a marbled effect.",
+        "Bake the cakes in the preheated oven for about 25-30 minutes or until a toothpick inserted into the center of the cakes comes out clean.",
+        "Remove the cakes from the oven and let them cool in the pans for about 10 minutes before transferring them to a wire rack to cool completely.",
+        "Once the cakes are completely cooled, spread a layer of vegan whipped cream or frosting on top of one cake.",
+        "Place the second cake on top of the frosted one to form a sandwich.",
+        "If desired, you can frost the entire cake with more whipped cream or frosting and drizzle additional caramel sauce on top for a beautiful presentation.",
+        "Slice the vanilla caramel cake and serve it as a delectable and indulgent dessert for any occasion."
+      ],
+      "ingredients": [
+        {
+          "ingredient": "All-purpose flour",
+          "unit": "cups",
+          "quantity": 2.5
+        },
+        {
+          "ingredient": "Baking powder",
+          "unit": "teaspoons",
+          "quantity": 2.5
+        },
+        {
+          "ingredient": "Salt",
+          "unit": "teaspoons",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Vegan butter",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Granulated sugar",
+          "unit": "cups",
+          "quantity": 1.5
+        },
+        {
+          "ingredient": "Flaxseed meal",
+          "unit": "tablespoons",
+          "quantity": 3
+        },
+        {
+          "ingredient": "Water",
+          "unit": "tablespoons",
+          "quantity": 6
+        },
+        {
+          "ingredient": "Vanilla extract",
+          "unit": "teaspoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Non-dairy milk",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Caramel sauce (store-bought or homemade)",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Vegan whipped cream or frosting",
+          "unit": "for topping",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Tea-Infused Chocolate Mousse",
+      "category": "Dessert",
+      "time": "60 mins",
+      "discription": "Tea-infused chocolate mousse is a luxurious and elegant dessert that combines the smoothness of chocolate with the delicate flavors of your favorite tea. This decadent mousse is perfect for impressing guests or treating yourself to a delightful sweet indulgence.",
+      "img": "https://cdn.pickuplimes.com/cache/10/11/10117d9ed699ed13ea88d262eda1fa7e.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/20/be/20be530aa7e1cb70835efe7fdebbc6c1.jpg",
+        "https://cdn.pickuplimes.com/cache/39/fb/39fbbaef9850b233112e7c787929f9da.jpg",
+        "https://cdn.pickuplimes.com/cache/33/92/3392b01eab92f8fbe8022fdbc76f9b8b.jpg",
+        "https://cdn.pickuplimes.com/cache/a1/54/a1545f54e914054687281d8edb70e96d.jpg"
+      ],
+      "directions": [
+        "In a small saucepan, heat the full-fat coconut milk over medium heat until it starts to simmer.",
+        "Add the tea leaves to the simmering coconut milk and let it steep for about 5 minutes, infusing the milk with the tea flavor. Remove the saucepan from the heat and let it cool.",
+        "In a separate microwave-safe bowl, melt the semi-sweet chocolate in the microwave, stirring every 20 seconds until smooth.",
+        "Once the coconut milk has cooled, strain out the tea leaves, leaving behind the infused coconut milk.",
+        "In a large mixing bowl, combine the melted chocolate, infused coconut milk, maple syrup or agave syrup, vanilla extract, and a pinch of salt. Mix until well combined and smooth.",
+        "Cover the mixing bowl with plastic wrap and refrigerate the chocolate mousse mixture for at least 1 hour to allow it to set and thicken.",
+        "After chilling, remove the chocolate mousse from the refrigerator and give it a quick whisk to make it fluffy and airy.",
+        "Divide the mousse into individual serving cups or glasses.",
+        "If desired, garnish the tea-infused chocolate mousse with fresh berries and mint leaves for an elegant touch.",
+        "Serve the tea-infused chocolate mousse immediately, or refrigerate it until ready to serve.",
+        "Indulge in the velvety smoothness and delightful tea flavors of this exquisite chocolate mousse as a perfect ending to any meal or a special treat on its own."
+      ],
+      "ingredients": [
+        {
+          "ingredient": "Semi-sweet chocolate (vegan, if preferred)",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Full-fat coconut milk",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Your favorite tea leaves (e.g., Earl Grey, green tea)",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Maple syrup or agave syrup",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Vanilla extract",
+          "unit": "teaspoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Pinch of salt",
+          "unit": "pinch",
+          "quantity": null
+        },
+        {
+          "ingredient": "Fresh berries (for serving, optional)",
+          "unit": "for serving",
+          "quantity": null
+        },
+        {
+          "ingredient": "Mint leaves (for garnish, optional)",
+          "unit": "for garnish",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Vegan Chocolate Buttercream Frosting",
+      "category": "Dessert",
+      "time": "15 mins",
+      "discription": "Vegan chocolate buttercream frosting is a rich and creamy topping that complements cakes, cupcakes, and other desserts perfectly. This dairy-free and egg-free frosting is easy to make and will elevate any sweet treat to the next level.",
+      "img": "https://cdn.pickuplimes.com/cache/e9/a8/e9a8b0102ca2ee0436f2bc67ad0a3a9f.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/3a/1a/3a1a022fd14743d1902ba4b11e1a7a00.jpg",
+        "https://cdn.pickuplimes.com/cache/58/31/5831b2627144d553ff5326945e08dea3.jpg",
+        "https://cdn.pickuplimes.com/cache/8d/0e/8d0e0f1a0f48df34f357947089abcfdd.jpg",
+        "https://cdn.pickuplimes.com/cache/41/e3/41e372d62478f5d7bd21ec5d1288c293.jpg"
+      ],
+      "directions": [
+        "In a large mixing bowl, beat the vegan butter with an electric mixer until creamy and smooth.",
+        "Add the powdered sugar, cocoa powder, non-dairy milk, vanilla extract, and a pinch of salt to the bowl.",
+        "Start mixing on low speed to avoid the powdered sugar and cocoa powder from flying everywhere. Gradually increase the speed to medium-high as the ingredients come together.",
+        "Continue beating until all the ingredients are well combined, and the frosting is smooth and fluffy.",
+        "Taste the frosting and adjust the sweetness or chocolate flavor if needed. You can add more powdered sugar for sweetness or more cocoa powder for a richer chocolate taste.",
+        "Once the desired consistency and taste are achieved, the vegan chocolate buttercream frosting is ready to use.",
+        "Spread the frosting over your cake or cupcakes using a spatula or pipe it onto your desserts for a more decorative finish.",
+        "Enjoy the luscious and velvety vegan chocolate buttercream frosting on your favorite cakes, cupcakes, or any other sweet treats!",
+        "Store any leftover frosting in an airtight container in the refrigerator for future use."
+      ],
+      "ingredients": [
+        {
+          "ingredient": "Vegan butter (at room temperature)",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Powdered sugar",
+          "unit": "cups",
+          "quantity": 3
+        },
+        {
+          "ingredient": "Cocoa powder",
+          "unit": "cups",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "Non-dairy milk",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Vanilla extract",
+          "unit": "teaspoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Pinch of salt",
+          "unit": "pinch",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "title": "Rhubarb & Raspberry Almond Tart",
+      "category": "Dessert",
+      "time": "90 mins",
+      "discription": "Rhubarb & raspberry almond tart is a delightful and fruity dessert that celebrates the seasonal flavors of rhubarb and raspberries, complemented by the nutty taste of almonds. This elegant tart is perfect for spring and summer gatherings or as a sweet treat for any occasion.",
+      "img": "https://cdn.pickuplimes.com/cache/f2/e7/f2e71a9ded20f2de9ad068400899413b.jpg",
+      "images": [
+        "https://cdn.pickuplimes.com/cache/18/3c/183c5598d3019ed9a31b1bc62ef2fb27.jpg",
+        "https://cdn.pickuplimes.com/cache/06/1b/061b192154d7e1d67a98026e1933050d.jpg",
+        "https://cdn.pickuplimes.com/cache/c3/8c/c38c73593e58ea8e47dcf1ed8948ab74.jpg",
+        "https://cdn.pickuplimes.com/cache/41/0c/410c7849418ec966697f1e3bf7e95b4e.jpg"
+      ],
+      "directions": [
+        "In a food processor, combine the all-purpose flour, ground almonds, and powdered sugar.",
+        "Add the chilled and cubed vegan butter to the food processor and pulse until the mixture resembles coarse crumbs.",
+        "Slowly drizzle in the ice-cold water while pulsing the mixture, just until the dough comes together.",
+        "Turn the dough out onto a lightly floured surface and shape it into a disk. Wrap the dough in plastic wrap and refrigerate it for about 30 minutes.",
+        "Preheat your oven to 375°F (190°C) and grease a tart pan with a removable bottom.",
+        "On a floured surface, roll out the chilled dough into a circle slightly larger than the tart pan.",
+        "Carefully transfer the rolled-out dough to the greased tart pan, pressing it gently into the bottom and sides.",
+        "Trim any excess dough from the edges of the pan.",
+        "In a bowl, mix the sliced rhubarb, fresh raspberries, granulated sugar, and almond extract until well combined.",
+        "Arrange the rhubarb and raspberry mixture evenly over the tart crust.",
+        "Sprinkle almond flakes over the top of the fruit filling for added texture and flavor.",
+        "Bake the rhubarb & raspberry almond tart in the preheated oven for about 30-35 minutes or until the crust is golden and the fruit is tender.",
+        "If desired, warm up some apricot jam and brush it over the top of the tart to add a glossy glaze.",
+        "Let the tart cool in the pan for a few minutes before carefully removing it from the pan and transferring it to a wire rack to cool completely.",
+        "Serve the rhubarb & raspberry almond tart as a delightful and elegant dessert, and enjoy the combination of tangy rhubarb, sweet raspberries, and nutty almond flavors."
+      ],
+      "ingredients": [
+        {
+          "ingredient": "All-purpose flour",
+          "unit": "cups",
+          "quantity": 1.5
+        },
+        {
+          "ingredient": "Ground almonds",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Powdered sugar",
+          "unit": "cups",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "Vegan butter, chilled and cubed",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Ice-cold water",
+          "unit": "tablespoons",
+          "quantity": 3
+        },
+        {
+          "ingredient": "Fresh rhubarb stalks, sliced",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Fresh raspberries",
+          "unit": "cups",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Granulated sugar",
+          "unit": "tablespoons",
+          "quantity": 2
+        },
+        {
+          "ingredient": "Almond extract",
+          "unit": "teaspoons",
+          "quantity": 1
+        },
+        {
+          "ingredient": "Almond flakes",
+          "unit": "for topping",
+          "quantity": null
+        },
+        {
+          "ingredient": "Apricot jam (for glaze, optional)",
+          "unit": "for glaze",
+          "quantity": null
+        }
+      ]
+    }
+  ]
+}
