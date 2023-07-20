@@ -51,3 +51,38 @@ export const latestVideos  = [
         img: "https://cdn.pickuplimes.com/cache/d7/0e/d70e4c577057f2eddad15b018860ba72.jpg"
     }
 ]
+
+
+export const latestArticles  = [
+    {
+        image: 'https://cdn.pickuplimes.com/cache/b1/79/b179362aaf19279b1b92e2844886cc8b.jpg',
+        heading: 'The Nourish Method',
+        subheading: 'plant-based eating made easy (+ complete)'
+    },
+    {
+        image: 'https://cdn.pickuplimes.com/cache/b1/79/b179362aaf19279b1b92e2844886cc8b.jpg',
+        heading: 'The Nourish Method',
+        subheading: 'plant-based eating made easy (+ complete)'
+    },
+    {
+        image: 'https://cdn.pickuplimes.com/cache/b1/79/b179362aaf19279b1b92e2844886cc8b.jpg',
+        heading: 'The Nourish Method',
+        subheading: 'plant-based eating made easy (+ complete)'
+    },
+    {
+        image: 'https://cdn.pickuplimes.com/cache/b1/79/b179362aaf19279b1b92e2844886cc8b.jpg',
+        heading: 'The Nourish Method',
+        subheading: 'plant-based eating made easy (+ complete)'
+    },
+    {
+        image: 'https://cdn.pickuplimes.com/cache/b1/79/b179362aaf19279b1b92e2844886cc8b.jpg',
+        heading: 'The Nourish Method',
+        subheading: 'plant-based eating made easy (+ complete)'
+    },
+    {
+        image: 'https://cdn.pickuplimes.com/cache/b1/79/b179362aaf19279b1b92e2844886cc8b.jpg',
+        heading: 'The Nourish Method',
+        subheading: 'plant-based eating made easy (+ complete)'
+    }
+]
+
