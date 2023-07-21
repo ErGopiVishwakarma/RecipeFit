@@ -5,6 +5,7 @@ import { Box, Text } from "@chakra-ui/react";
 
 import TempRecipeData from "../Functions/TempData";
 import SingleRecipeDetails from "../Components/RecipesPage/SingleRecipeDetails";
+import IngAndDirect from "../Components/RecipesPage/IngAndDirect";
 
 const SingleRecipePage = () => {
   const { recipeID } = useParams();
@@ -34,6 +35,9 @@ const SingleRecipePage = () => {
     >
       {/* Recipe Details */}
       <SingleRecipeDetails recipeData={recipeData} />
+
+      {/* Ingredients and Direction and Images */}
+      <IngAndDirect recipeData={recipeData} />
     </Box>
   );
 };

@@ -206,7 +206,7 @@ export const ChildOptionsLowerText = css`
   }
 `;
 export const QtyInpAndBtnCont = css`
-  width: 123px;
+  width: 121px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -229,6 +229,12 @@ export const IncBox = css`
   border-bottom-right-radius: 5px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  transition: 0.2s ease-in-out;
+
+  :hover {
+    background-color: rgb(214, 63, 7);
+    color: white;
+  }
 
   @media (max-width: 992px) {
   }
@@ -249,6 +255,13 @@ export const DecBox = css`
   border-bottom-right-radius: 20px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+
+  transition: 0.2s ease-in-out;
+
+  :hover {
+    background-color: rgb(0, 157, 0);
+    color: white;
+  }
 
   @media (max-width: 992px) {
   }
@@ -390,6 +403,186 @@ export const FreeIconImg = css`
   @media (max-width: 480px) {
     width: 35px;
     height: 35px;
+  }
+`;
+
+// Ingredients and Direction Css
+export const IngDirectImagesOuter = css`
+  margin: auto;
+  width: 85%;
+  margin-top: 45px;
+
+  @media (max-width: 992px) {
+    width: 80%;
+    margin-top: 35px;
+  }
+  @media (max-width: 768px) {
+    margin-top: 30px;
+  }
+  @media (max-width: 480px) {
+    width: 90%;
+    margin-top: 20px;
+  }
+`;
+export const IngAndDirectCont = css`
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+    gap: 20px;
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+    gap: 15px;
+  }
+`;
+export const IngredientsCont = css`
+  text-align: left;
+  padding: 18px;
+  border-radius: 10px;
+  width: 43.5%;
+  height: fit-content;
+
+  @media (max-width: 992px) {
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    padding: 15px;
+  }
+  @media (max-width: 480px) {
+    border-radius: 6px;
+    padding: 10px;
+  }
+`;
+export const BuyIngButton = css`
+  margin: auto;
+  color: white;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: border-radius 0.3s;
+  cursor: pointer;
+
+  :hover {
+    border-radius: 40px;
+  }
+
+  @media (max-width: 992px) {
+  }
+  @media (max-width: 768px) {
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 0px 10px;
+    height: 33px;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 480px) {
+    font-size: 13px;
+    margin-top: 7px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    height: 30px;
+    margin-bottom: 7px;
+  }
+`;
+export const HeadingIngAndDirect = css`
+  font-size: 2.7rem;
+  margin-bottom: 10px;
+
+  @media (max-width: 992px) {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+  }
+  @media (max-width: 768px) {
+    font-size: 1.65rem;
+    margin-bottom: 6px;
+  }
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+  }
+`;
+export const DirectCont = css`
+  text-align: left;
+  width: 56.5%;
+
+  @media (max-width: 992px) {
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+  }
+`;
+export const UncrossedText = css`
+  text-align: left;
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 10px;
+
+  :hover {
+    color: #50684b;
+  }
+  @media (max-width: 992px) {
+  }
+  @media (max-width: 768px) {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 8px;
+  }
+  @media (max-width: 480px) {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 4px;
+  }
+`;
+export const CrossedText = css`
+  text-align: left;
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 10px;
+
+  :hover {
+    color: #50684b;
+  }
+
+  @media (max-width: 992px) {
+  }
+  @media (max-width: 768px) {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 8px;
+  }
+  @media (max-width: 480px) {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 4px;
+  }
+`;
+export const RecipeImageStyles = css`
+  margin: auto;
+  text-align: center;
+  height: 700px;
+  margin-top: 25px;
+  border-radius: 15px;
+
+  @media (max-width: 992px) {
+  }
+  @media (max-width: 768px) {
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 11px;
+  }
+  @media (max-width: 480px) {
+    height: 350px;
+    margin-top: 20px;
+    border-radius: 8px;
   }
 `;
 
