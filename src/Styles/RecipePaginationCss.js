@@ -13,30 +13,40 @@ export const Outer = css`
   @media (max-width: 768px) {
   }
   @media (max-width: 480px) {
+    width: 230px;
+    margin-top: 50px;
   }
 `;
 export const PageCont = css`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 8px;
 
   @media (max-width: 992px) {
   }
   @media (max-width: 768px) {
   }
   @media (max-width: 480px) {
+    gap: 6px;
   }
 `;
 export const PageText = css`
+  font-size: 18px;
+
   @media (max-width: 992px) {
   }
   @media (max-width: 768px) {
   }
   @media (max-width: 480px) {
+    font-size: 14px;
   }
 `;
 export const InputCss = css`
-  width: 30px;
+  width: 40px;
+  padding: 0;
+  height: 43px;
+  text-align: center;
   border: 2px solid;
   outline: none;
   border-radius: 8px;
@@ -46,6 +56,7 @@ export const InputCss = css`
 
   :hover {
     outline: none;
+    border: 2px solid;
   }
 
   :focus {
@@ -58,6 +69,9 @@ export const InputCss = css`
   @media (max-width: 768px) {
   }
   @media (max-width: 480px) {
+    width: 30px;
+    height: 35px;
+    font-size: 1rem;
   }
 `;
 
@@ -65,16 +79,33 @@ export const ArrowConts = css`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 8px;
+  width: 60px;
 
   @media (max-width: 992px) {
   }
   @media (max-width: 768px) {
   }
   @media (max-width: 480px) {
+    gap: 5px;
+    width: 50px;
   }
 `;
 export const Arrows = css`
   cursor: pointer;
+  font-size: 28px;
+
+  @media (max-width: 992px) {
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 480px) {
+    font-size: 22px;
+  }
+`;
+
+export const hiddenArrowCss = css`
+  display: none;
 
   @media (max-width: 992px) {
   }
