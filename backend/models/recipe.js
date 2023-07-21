@@ -18,25 +18,23 @@ const recipeSchema = new mongoose.Schema(
       type: [String],
     },
     time: {
-      type: String,
+        type: String
     },
     description: {
       type: String,
     },
     ingredients: {
-      type: [
-        {
-          ingredient: {
-            type: String,
-          },
-          unit: {
-            type: String,
-          },
-          quantity: {
-            type: String,
-          },
-        },
-      ],
+        type: [{
+            ingredient: {
+                type: String
+            },
+            unit: {
+                type: String
+            },
+            quantity: {
+                type: String
+            }
+        }]
     },
     directions: {
       type: [String],

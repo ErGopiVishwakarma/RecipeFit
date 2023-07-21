@@ -16,6 +16,13 @@ module.exports.register = async (req, res) => {
       const { username, email, password } = req.body;
       const hashedPassword = await bcrypt.hash(password, saltRounds);
 
+      let existingUser = await User.find({email: email});
+
+      if(existingUser){
+        res.status(409).send({ message: "User already registered by the same email" });
+        return;
+      }
+
       const user = await User.create({ 
           username: username,
           email: email,

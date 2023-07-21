@@ -119,19 +119,17 @@ module.exports.fetchRecipesBySearchTerm = async (req, res) => {
 
     // const query = await Recipe.find({user: userId});
 
-    let query;
+        let query = {};
 
-    query.user = userId;
+        // query.user = userId;
 
     if (req.query.title) {
       query.title = { $regex: req.query.title, $options: "i" };
     }
 
-    if (req.query.timeTaken) {
-      query.timeTaken = {
-        $in: ["10", "15", "20", "25", "30", "35", "40", "60"],
-      };
-    }
+        if(req.query.time){
+            query.time = { $in: ["10 mins", "15 mins", "20 mins", "25 mins", "30 mins", "35 mins", "40 mins", "60 mins"] }
+        }
 
     if (req.query.categories.length > 0) {
       query.categories = {
