@@ -1,5 +1,5 @@
-import { Box, Button, Flex, Heading, Image, Text } from '@chakra-ui/react'
-import React from 'react'
+import { Box, Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import React from "react";
 
 const WelcomeFriends = () => {
     return (
@@ -29,4 +29,5 @@ const WelcomeFriends = () => {
     )
 }
 
-export default WelcomeFriends
+
+export default WelcomeFriends;

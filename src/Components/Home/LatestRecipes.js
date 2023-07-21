@@ -1,3 +1,4 @@
+
 import { Box, Button, Flex, Grid, Heading, Image, Text } from '@chakra-ui/react'
 import React from 'react'
 import { latestRecipes } from './Dummy.js'
@@ -25,7 +26,7 @@ const LatestRecipes = () => {
         <RecipeCarousal arr={latestRecipes} />
       </Box>
     </Flex>
-  )
-}
+  );
+};
 
-export default LatestRecipes
+export default LatestRecipes;

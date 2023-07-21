@@ -1,5 +1,5 @@
-import { Box, Button, Flex, Heading, Image, Text } from '@chakra-ui/react'
-import React from 'react'
+import { Box, Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import React from "react";
 
 const JoinCommunity = () => {
   return (
@@ -23,10 +23,11 @@ const JoinCommunity = () => {
                 <Text>We make videos, recipes, and nutrition articles to make you feel excited and supported in introducing more plant-based foods into your meals, snacks, desserts, and everything in-between!</Text>
                 <Button m='auto' bg='red.700' colorScheme='white'>learn more</Button>
             </Flex>
-        </Flex>
-    </Flex>
-</Box>
-  )
-}
 
-export default JoinCommunity
+        </Flex>
+      </Flex>
+    </Box>
+  );
+};
+
+export default JoinCommunity;

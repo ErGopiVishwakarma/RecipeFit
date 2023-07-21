@@ -1,5 +1,12 @@
 {
-    artical: [
+  artical: [
+    {
+      image:
+        "https://cdn.pickuplimes.com/cache/b1/79/b179362aaf19279b1b92e2844886cc8b.jpg",
+      heading: "The Nourish Method",
+      subheading: "plant-based eating made easy (+ complete)",
+      desc: "Navigating the intricacies of plant-based nourishment can often feel overwhelming, but the Nourish Method is a framework to help simplify things. In this article, we explain what the Nourish Method is, and how we came up with it.",
+      step: [
         {
             image: 'https://cdn.pickuplimes.com/cache/b1/79/b179362aaf19279b1b92e2844886cc8b.jpg',
             heading: 'The Nourish Method',
@@ -214,3 +221,4 @@
         }
     ]
 }
+
