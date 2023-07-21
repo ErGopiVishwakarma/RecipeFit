@@ -4,9 +4,9 @@ import { NavLink, Link } from "react-router-dom";
 import { Box, Text, Image } from "@chakra-ui/react";
 import { FiClock } from "react-icons/fi";
 
-const RecipeCard = ({ _id, title, time, category, img }) => {
+const RecipeCard = ({ _id, title, time, category, img, images }) => {
   return (
-    <Link to={`/recipe/${_id}`} className="RecipeCardOuter">
+    <Link to={`/recipe/${_id}`} className="RecipeCardOuter" target="_blank">
       <Box css={css.RecipeCardImgBox}>
         <Image src={img} css={css.RecipeCardImg} />
       </Box>
