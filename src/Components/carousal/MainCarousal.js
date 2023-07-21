@@ -19,9 +19,9 @@ const settings = {
   arrows: true,
   fade: true,
   infinite: true,
-  autoplay: false,
+  autoplay: true,
   speed: 500,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 4000,
   slidesToShow: 1,
   slidesToScroll: 1,
   pauseOnHover:false,
@@ -53,8 +53,8 @@ return(
     <Slider {...settings} >
       {
         arr?.map((el,ind)=>(
-            <Box key ={ind} w='100%' h='100vh'>
-                <Image src={el.image} w='100%' />
+            <Box key ={ind} w='100%' h={['500px','350px','500px','100vh']}>
+                <Image src={el.image} w='100%' h='100%' />
             </Box>
         ))
       }
@@ -79,7 +79,7 @@ function SampleNextArrow(props) {
     return (
       <Box
         className={className}
-        style={{ ...style, display: "block",  color:'white', fontSize:'30px' }}
+        style={{ ...style, display: "block", }}
         onClick={onClick}
       />
     );
