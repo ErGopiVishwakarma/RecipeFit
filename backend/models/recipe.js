@@ -32,7 +32,7 @@ const recipeSchema = new mongoose.Schema(
                 type: String
             },
             quantity: {
-                type: String
+                type: mongoose.Schema.Types.Mixed
             }
         }]
     },
