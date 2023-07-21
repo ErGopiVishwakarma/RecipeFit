@@ -2,15 +2,15 @@
     position: relative;
     .slick-prev, .slick-next {
       position: absolute;
-      top: 60%;
+      top:205%
     }
     .slick-prev {
         left: 3% !important;
         z-index: 1;
+        color: green;
       }
       .slick-next {
         right: 3% !important;
         z-index: 1;
       }
   }
-
