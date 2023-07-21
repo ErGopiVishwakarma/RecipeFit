@@ -68,8 +68,8 @@ const Pagination = () => {
           value={current}
           onChange={(e) => setCurrent((prev) => e.target.value)}
           onKeyDown={handleKeyPress}
-          type="number"
           css={css.InputCss}
+          type="number"
           _focusVisible="false"
           color="dgreen"
           borderColor="lblack2"
