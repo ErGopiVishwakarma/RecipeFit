@@ -78,7 +78,7 @@ module.exports.getArticles = async (req, res) => {
 
         const totalArticleCount = await Article.countDocuments(filter);
 
-        res.status(200).send({ recipe: article, totalCount: totalArticleCount });
+        res.status(200).send({ article: article, totalCount: totalArticleCount });
 
     }
     catch (err) {
