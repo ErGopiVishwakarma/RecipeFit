@@ -1,4 +1,3 @@
-const { query } = require("express");
 const Recipe = require("../models/recipe");
 const User = require("../models/user");
 

@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const userRoutes = require("./routes/userRoutes");
 const recipeRoutes = require("./routes/recipeRoutes");
+const articleRoutes = require("./routes/articleRoutes");
 
 require('dotenv').config();
 
@@ -22,6 +23,7 @@ mongoose.connect(process.env.MONGODB_URI)
 
 app.use("/users", userRoutes);
 app.use("/recipes", recipeRoutes);
+app.use("/articles", articleRoutes);
 
 
 app.listen(PORT, () => {
