@@ -2,7 +2,6 @@ import React from "react";
 import { Box, Text } from "@chakra-ui/react";
 
 import BannerImg from "../../Images/RecipePageImages/RecipePageBanner.jpeg";
-//import BannerImg from "../Images/RecipePageImages/RecipePageBanner.jpeg";
 
 const BannerRecipePage = () => {
   return (
