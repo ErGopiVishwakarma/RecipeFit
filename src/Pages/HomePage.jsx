@@ -7,12 +7,11 @@ import WelcomeFriends from "../Components/Home/WelcomeFriends";
 import JoinCommunity from "../Components/Home/JoinCommunity";
 import MainCarousals from "../Components/carousal/MainCarousal";
 
-
 const HomePage = () => {
   return (
-    <Flex direction={'column'}>
+    <Flex direction={"column"} paddingTop={["65px", "75px", "85px"]}>
       {/* carousal  */}
-      <Flex> 
+      <Flex>
         <MainCarousals />
       </Flex>
       {/* Latest Recipes  */}
@@ -26,7 +25,7 @@ const HomePage = () => {
       {/* Latest Aritcles  */}
       <LatestArticles />
     </Flex>
-  )
+  );
 };
 
 export default HomePage;

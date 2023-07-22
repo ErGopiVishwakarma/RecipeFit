@@ -1,6 +1,0 @@
-
-  .visible {
-    visibility:hidden;
-    opacity: 0;
-    transition: visibility 2s, opacity 0.5s linear;
-  }
