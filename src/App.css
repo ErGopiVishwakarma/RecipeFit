@@ -18,3 +18,53 @@
   @media (max-width: 480px) {
   }
 }
+
+/* Comment Text Area - Single Recipe Page */
+.commentTextArea {
+  width: 100%;
+  padding: 10px;
+  height: 200px;
+  text-align: left;
+  border: 2px solid;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1.2rem;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 0.4rem #64825e;
+  color: #50684b;
+  border-color: #50684b;
+  font-family: "Alegreya Sans", sans-serif;
+
+  :focus {
+    border: 2px solid;
+    box-shadow: 0 0 1rem #64825e;
+  }
+
+  :placeholder {
+    font-size: 20px;
+    font-family: Cotoris W01 Bold;
+  }
+
+  @media (max-width: 992px) {
+  }
+
+  @media (max-width: 480px) {
+  }
+}
+
+@media (max-width: 768px) {
+  .commentTextArea {
+    font-size: 1rem;
+    padding: 8px;
+    height: 150px;
+  }
+}
+@media (max-width: 480px) {
+  .commentTextArea {
+    font-size: 0.9rem;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 6px;
+    height: 115px;
+  }
+}
