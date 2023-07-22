@@ -236,14 +236,6 @@ const Navbar = () => {
           />
         </DrawerContent>
       </Drawer>
-      {/* <Collapse in={showSearch} animateOpacity>
-        <Box
-          mt={["65px", "75px", "85px"]}
-          css={show ? css.FadedSearch : css.VisibleSearch}
-        >
-          <RecipePageSearch />
-        </Box>
-      </Collapse> */}
 
       {/* Search Box */}
       <Collapse in={showSearch} animateOpacity>
