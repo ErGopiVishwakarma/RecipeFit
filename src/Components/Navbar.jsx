@@ -40,7 +40,7 @@ const Navbar = () => {
           <NavLink>About</NavLink>
         </Flex>
         <Box>
-          <EmailIcon />
+          <EmailIcon  />
         </Box>
       </Flex>
     </Box>
