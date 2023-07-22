@@ -146,7 +146,6 @@ const Navbar = () => {
             as={TfiEmail}
             css={css.SearchIconCss}
           />
-          {/* GrClose */}
           <Image
             display={["block", "block", "none"]}
             as={isOpen ? GrClose : FiMenu}
