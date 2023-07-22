@@ -1,4 +1,4 @@
-import * as css from "../Styles/FilterRecipeStyles";
+import * as css from "../../Styles/FilterRecipeStyles";
 import React, { useState, useEffect } from "react";
 import {
   useBreakpointValue,
@@ -143,15 +143,15 @@ export default FilterRecipes;
 const RecipeTypes = [
   { name: "Main", value: "main" },
   { name: "Breakfast", value: "breakfast" },
-  { name: "Appetizer", value: "appetizer" },
+  { name: "Snack", value: "soup" },
   { name: "Desert", value: "desert" },
-  { name: "Soup", value: "soup" },
+  { name: "Appetizer", value: "appetizer" },
 ];
 
 const SortOptions = [
   { name: "A-Z", value: "a-z" },
   { name: "Z-A", value: "z-a" },
-  { name: "Highest Rated", value: "rated" },
+  { name: "Highest Rated", value: "highrating" },
 ];
 
 const TimeTaken = [

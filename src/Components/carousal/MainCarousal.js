@@ -34,9 +34,9 @@ const settings = {
   arrows: true,
   fade: true,
   infinite: true,
-  autoplay: false,
+  autoplay: true,
   speed: 500,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 4000,
   slidesToShow: 1,
   slidesToScroll: 1,
   pauseOnHover: false,
@@ -47,33 +47,34 @@ const settings = {
 function MainCarousals({ pictures, height }) {
   return (
     <Box
-      position={"relative"}
-      height={height}
-      width={"full"}
-      overflow={"hidden"}
-    >
-      {/* CSS files for react-slick */}
-      <link
-        rel="stylesheet"
-        type="text/css"
-        charSet="UTF-8"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-      />
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-      />
-
-      <Slider {...settings}>
-        {arr?.map((el, ind) => (
-          <Box key={ind} w="100%" h="100vh">
-            <Image src={el.image} w="100%" />
-          </Box>
-        ))}
-      </Slider>
-    </Box>
-  );
+    position={'relative'}
+    height={height}
+    width={'full'}
+    overflow={'hidden'}>
+    {/* CSS files for react-slick */}
+    <link
+      rel="stylesheet"
+      type="text/css"
+      charSet="UTF-8"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+    />
+   
+    <Slider {...settings} >
+      {
+        arr?.map((el,ind)=>(
+            <Box key ={ind} w='100%' h={['500px','350px','500px','100vh']}>
+                <Image src={el.image} w='100%' h='100%' />
+            </Box>
+        ))
+      }
+    </Slider>
+  </Box>
+)
 }
 
 function SampleNextArrow(props) {
@@ -87,15 +88,16 @@ function SampleNextArrow(props) {
   );
 }
 
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <Box
-      className={className}
-      style={{ ...style, display: "block", color: "white", fontSize: "30px" }}
-      onClick={onClick}
-    />
-  );
-}
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <Box
+        className={className}
+        style={{ ...style, display: "block", }}
+        onClick={onClick}
+      />
+    );
+  }
+
 
 export default MainCarousals;

@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Components/Home/Footer";
 import Navbar from "./Components/Navbar";
 import LoginPage from "./Pages/LoginPage";
 import SingupPage from "./Pages/SignupPage";
@@ -8,12 +9,13 @@ import { Box } from "@chakra-ui/react";
 function App() {
   return (
     <Box className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <AllRoutes />
-      <LoginPage/>
-      < SingupPage/>
+
+ <Footer />
     </Box>
   );
 }
 
 export default App;
+

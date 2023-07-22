@@ -5,7 +5,8 @@ import LatestVideo from "../Components/Home/LatestVideo";
 import LatestArticles from "../Components/Home/LatestArticles";
 import WelcomeFriends from "../Components/Home/WelcomeFriends";
 import JoinCommunity from "../Components/Home/JoinCommunity";
-import MainCarousals from "../Components/Home/MainCarousal";
+import MainCarousals from "../Components/carousal/MainCarousal";
+
 
 const HomePage = () => {
   return (

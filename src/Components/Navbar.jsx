@@ -1,47 +1,72 @@
-import React from "react";
-import { Box, Flex, Image, Heading } from "@chakra-ui/react";
+import React, { useState } from "react";
+import { Box, Flex, Image, Heading, Input, useBoolean } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 import { EmailIcon, Search2Icon } from "@chakra-ui/icons";
-import icon from "../Images/Icons/favicon.png";
+import "../Styles/navbar.css";
 
 const Navbar = () => {
+  const [flag, setFlag] = useBoolean();
+  const [show, setShow] = useState("");
+  window.addEventListener("wheel", (e) => {
+    if (e.deltaY < 0) {
+      setShow("");
+    } else {
+      setShow("visible");
+    }
+  });
+
   return (
-    <Box
-      w="100%"
-      h={["65px", "75px", "85px"]} // Do not change height
-      position="fixed"
-      top="0"
-      zIndex="1000"
-      bgColor="#ffffffb7"
-      backdropFilter="blur(20px)"
-      display="flex"
-      alignItems="center"
-      justifyContent="space-between"
-      padding={["0px 150px"]}
-    >
-      <Flex gap="30px">
-        <Box>
-          <Search2Icon />
-        </Box>
-        <Flex gap="30px" fontSize="20px">
-          <NavLink to="/recipes">Recipes</NavLink>
-          <NavLink>Articles</NavLink>
-          <NavLink>Videos</NavLink>
+    <Box>
+      <Box
+        w="100%"
+        pos={"fixed"}
+        zIndex={99}
+        px="20px"
+        bg="white"
+        alignItems={"center"}
+        className={show}
+      >
+        <Flex
+          justifyContent={["space-between", "space-between", "space-around"]}
+          h="80px"
+          alignItems="center"
+        >
+          <Flex gap={["", "", "20px", "30px"]} alignItems="center">
+            <Box onClick={setFlag.toggle}>
+              <Search2Icon />
+            </Box>
+            <Flex
+              gap={["", "", "20px", "30px"]}
+              fontSize="20px"
+              colorScheme="primary"
+              display={["none", "none", "flex"]}
+            >
+              <NavLink>Recipes</NavLink>
+              <NavLink to="/articles">Articles</NavLink>
+              <NavLink>Videos</NavLink>
+            </Flex>
+          </Flex>
+
+          <Flex>
+            {/* <Image src={icon} w='100px' /> */}
+            <Heading>RecipeSnap</Heading>
+          </Flex>
+          <Flex gap={["", "", "20px", "30px"]} alignItems="center">
+            <Flex
+              gap={["", "", "20px", "30px"]}
+              fontSize="20px"
+              display={["none", "none", "flex"]}
+            >
+              <NavLink>App</NavLink>
+              <NavLink>Shop</NavLink>
+              <NavLink>About</NavLink>
+            </Flex>
+            <Box>
+              <EmailIcon color="gray" />
+            </Box>
+          </Flex>
         </Flex>
-      </Flex>
-      <Flex>
-        {/* <Image src={icon} w='100px' /> */}
-        <Heading>RecipeSnap</Heading>
-      </Flex>
-      <Flex gap="30px">
-        <Flex gap="30px" fontSize="20px">
-          <NavLink>App</NavLink>
-          <NavLink>Shop</NavLink>
-          <NavLink>About</NavLink>
-        </Flex>
-        <Box>
-          <EmailIcon  />
-        </Box>
+
       </Flex>
     </Box>
   );
