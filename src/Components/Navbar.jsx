@@ -66,20 +66,7 @@ const Navbar = () => {
             </Box>
           </Flex>
         </Flex>
-      </Box>
-      {/* search box  */}
-      <Flex
-        alignItems={"center"}
-        justifyContent={"center"}
-        bg="green"
-        pt="100px"
-        pb="20px"
-        display={flag ? "flex" : "none"}
-        w="100%"
-        pos={"fixed"}
-        zIndex={29}
-      >
-        <Input w="600px" color="white" bg="white" />
+
       </Flex>
     </Box>
   );
