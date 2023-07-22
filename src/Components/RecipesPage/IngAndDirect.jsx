@@ -51,7 +51,7 @@ const IngAndDirect = ({ recipeData }) => {
           </Text>
           <OrderedList>
             {recipeData?.directions?.map((item, ind) => (
-              <ListItem CrossedText>
+              <ListItem key={item + ind}>
                 <CrossableText str={item} />
               </ListItem>
             ))}
@@ -88,7 +88,6 @@ const CrossableText = ({ str }) => {
     textDecoration: "none",
   };
 
-  console.log(str);
   return (
     <Text
       onClick={handleTextClick}

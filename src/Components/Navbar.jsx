@@ -2,31 +2,47 @@ import React, { useState } from "react";
 import { Box, Flex, Image, Heading, Input, useBoolean } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 import { EmailIcon, Search2Icon } from "@chakra-ui/icons";
-import '../Styles/navbar.css'
-
+import "../Styles/navbar.css";
 
 const Navbar = () => {
-  const [flag, setFlag] = useBoolean()
-  const [show, setShow] = useState('')
-  window.addEventListener('wheel', (e) => {
+  const [flag, setFlag] = useBoolean();
+  const [show, setShow] = useState("");
+  window.addEventListener("wheel", (e) => {
     if (e.deltaY < 0) {
-      setShow('')
+      setShow("");
     } else {
-      setShow('visible')
+      setShow("visible");
     }
-  })
+  });
 
   return (
-    <Box  >
-      <Box w='100%' pos={'fixed'} zIndex={99} px='20px' bg='white' alignItems={'center'} className={show} >
-        <Flex justifyContent={['space-between', 'space-between', 'space-around']} h='80px' alignItems='center' >
-          <Flex gap={['', '', '20px', '30px']} alignItems='center'>
+    <Box>
+      <Box
+        w="100%"
+        pos={"fixed"}
+        zIndex={99}
+        px="20px"
+        bg="white"
+        alignItems={"center"}
+        className={show}
+      >
+        <Flex
+          justifyContent={["space-between", "space-between", "space-around"]}
+          h="80px"
+          alignItems="center"
+        >
+          <Flex gap={["", "", "20px", "30px"]} alignItems="center">
             <Box onClick={setFlag.toggle}>
               <Search2Icon />
             </Box>
-            <Flex gap={['', '', '20px', '30px']} fontSize='20px' colorScheme='primary' display={['none', 'none', 'flex']}>
+            <Flex
+              gap={["", "", "20px", "30px"]}
+              fontSize="20px"
+              colorScheme="primary"
+              display={["none", "none", "flex"]}
+            >
               <NavLink>Recipes</NavLink>
-              <NavLink to='/articles'>Articles</NavLink>
+              <NavLink to="/articles">Articles</NavLink>
               <NavLink>Videos</NavLink>
             </Flex>
           </Flex>
@@ -35,21 +51,35 @@ const Navbar = () => {
             {/* <Image src={icon} w='100px' /> */}
             <Heading>RecipeSnap</Heading>
           </Flex>
-          <Flex gap={['', '', '20px', '30px']} alignItems='center'>
-            <Flex gap={['', '', '20px', '30px']} fontSize='20px' display={['none', 'none', 'flex']}>
+          <Flex gap={["", "", "20px", "30px"]} alignItems="center">
+            <Flex
+              gap={["", "", "20px", "30px"]}
+              fontSize="20px"
+              display={["none", "none", "flex"]}
+            >
               <NavLink>App</NavLink>
               <NavLink>Shop</NavLink>
               <NavLink>About</NavLink>
             </Flex>
             <Box>
-              <EmailIcon color='gray' />
+              <EmailIcon color="gray" />
             </Box>
           </Flex>
         </Flex>
       </Box>
       {/* search box  */}
-      <Flex alignItems={'center'} justifyContent={'center'} bg='green' pt='100px' pb='20px' display={flag? 'flex' : 'none'} w='100%' pos={'fixed'} zIndex={29} >
-        <Input w='600px' color='white' bg='white' />
+      <Flex
+        alignItems={"center"}
+        justifyContent={"center"}
+        bg="green"
+        pt="100px"
+        pb="20px"
+        display={flag ? "flex" : "none"}
+        w="100%"
+        pos={"fixed"}
+        zIndex={29}
+      >
+        <Input w="600px" color="white" bg="white" />
       </Flex>
     </Box>
   );
