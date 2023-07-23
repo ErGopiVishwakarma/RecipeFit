@@ -17,10 +17,29 @@ import {
   BiChevronsRight,
 } from "react-icons/bi";
 
-const Pagination = () => {
-  const [current, setCurrent] = useState(1);
-  const [error, setError] = useState(null);
-  const totalPages = 10;
+const Pagination = ({ totalPages, page: current, setPage: setCurrent }) => {
+  const [val, setVal] = useState(current);
+
+  useEffect(() => {
+    setVal((prev) => current);
+  }, [current]);
+
+  useEffect(() => {
+    if (current == 0) {
+      setCurrent(1);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (totalPages != 1) {
+      if (current > totalPages) {
+        setCurrent((prev) => totalPages);
+      }
+    }
+    if (current == 0) {
+      setCurrent(1);
+    }
+  }, [totalPages]);
 
   const onPageChange = (page) => {
     console.log(page);
@@ -29,6 +48,7 @@ const Pagination = () => {
   const handleKeyPress = (e) => {
     if (e.key === "Enter") {
       handlePageChange();
+      setCurrent((prev) => val);
     }
   };
 
@@ -65,8 +85,10 @@ const Pagination = () => {
       <Box fontFamily="cotoris" css={css.PageCont}>
         <Text css={css.PageText}>Page</Text>
         <Input
-          value={current}
-          onChange={(e) => setCurrent((prev) => e.target.value)}
+          value={val}
+          onChange={(e) => {
+            setVal((prev) => e.target.value);
+          }}
           onKeyDown={handleKeyPress}
           css={css.InputCss}
           type="number"
@@ -80,12 +102,12 @@ const Pagination = () => {
       <Box color="gblack" css={css.ArrowConts}>
         <Image
           onClick={() => handleArrowClick(1)}
-          css={current >= 10 ? css.hiddenArrowCss : css.Arrows}
+          css={current >= totalPages ? css.hiddenArrowCss : css.Arrows}
           as={BiChevronRight}
         />
         <Image
           onClick={() => setCurrent(totalPages)}
-          css={current >= 10 ? css.hiddenArrowCss : css.Arrows}
+          css={current >= totalPages ? css.hiddenArrowCss : css.Arrows}
           as={BiChevronsRight}
         />
       </Box>

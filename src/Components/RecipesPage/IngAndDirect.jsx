@@ -14,7 +14,7 @@ import { SiInstacart } from "react-icons/si";
 
 import React from "react";
 
-const IngAndDirect = ({ recipeData }) => {
+const IngAndDirect = ({ qty, recipeData }) => {
   return (
     <Box css={css.IngDirectImagesOuter}>
       {/* Ingredients and Directions */}
@@ -24,14 +24,17 @@ const IngAndDirect = ({ recipeData }) => {
           <Text fontFamily="cotorisb" css={css.HeadingIngAndDirect}>
             Ingredients
           </Text>
-          {recipeData?.ingredients?.map((item, ind) => (
-            <CrossableText
-              str={`${
-                item.quantity ? decimalToFraction(item.quantity) : ""
-              } ${fixUnit(item.unit)} ${item.ingredient}`}
-              key={item.ingredient + ind}
-            />
-          ))}
+          {recipeData?.ingredients?.map((item, ind) => {
+            let val = item.quantity * qty;
+            return (
+              <CrossableText
+                str={`${item.quantity ? decimalToFraction(val) : ""} ${fixUnit(
+                  item.unit
+                )} ${item.ingredient}`}
+                key={item.ingredient + ind}
+              />
+            );
+          })}
           <Box textAlign="center">
             <Button
               fontFamily="hind"
@@ -81,21 +84,25 @@ const CrossableText = ({ str }) => {
   const handleTextClick = () => {
     setIsCrossed((prevIsCrossed) => !prevIsCrossed);
   };
-  const crossedStyle = {
-    textDecoration: "line-through",
-  };
-  const normalStyle = {
-    textDecoration: "none",
-  };
 
   return (
     <Text
       onClick={handleTextClick}
-      color={isCrossed ? "gblack" : "lblack"}
+      style={{
+        color: isCrossed ? "gblack" : "lblack",
+        cursor: "pointer",
+      }}
       css={isCrossed ? css.CrossedText : css.UncrossedText}
-      sx={isCrossed ? crossedStyle : normalStyle}
-      cursor="pointer"
       fontFamily="cotoris"
+      sx={
+        isCrossed
+          ? {
+              textDecoration: "line-through",
+            }
+          : {
+              textDecoration: "none",
+            }
+      }
     >
       {str}
     </Text>

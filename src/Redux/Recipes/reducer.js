@@ -1,11 +1,12 @@
 import { GETRECIPES, ISLOADING, ISERROR } from "./actiontypes";
 
-const initState = {
+export const initState = {
   isLoading: false,
   isError: false,
   recipes: [],
-  totalPages: 0,
+  totalPages: 1,
 };
+
 export const reducer = (state = initState, { type, payload, totalPages }) => {
   switch (type) {
     case ISLOADING: {

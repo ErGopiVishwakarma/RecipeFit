@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import ScrollToTop from "react-scroll-to-top";
 import Footer from "./Components/Home/Footer";
 import Navbar from "./Components/Navbar";
 import LoginPage from "./Pages/LoginPage";
@@ -24,6 +25,7 @@ import {
 function App() {
   return (
     <Box className="App">
+      <ScrollToTop smooth />
       {/* <Navbar /> */}
       <AllRoutes />
       <Footer />

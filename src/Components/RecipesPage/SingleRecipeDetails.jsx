@@ -3,7 +3,11 @@ import { FiClock } from "react-icons/fi";
 import { useEffect, useState } from "react";
 import { Box, Text, Image, Button, Input, Center } from "@chakra-ui/react";
 
-const SingleRecipeDetails = ({ recipeData }) => {
+const SingleRecipeDetails = ({ setQty, qty, recipeData }) => {
+  const handleClick = (val) => {
+    setQty((prev) => prev + val);
+  };
+
   return (
     <Box css={css.DetailsCont}>
       <Image src={recipeData?.img} css={css.ImgCss} />
@@ -36,17 +40,35 @@ const SingleRecipeDetails = ({ recipeData }) => {
               Servings
             </Text>
             <Box css={css.QtyInpAndBtnCont}>
-              <Center bg="dwhite2" fontFamily="cotoris" css={css.IncBox}>
+              <Center
+                bg="dwhite2"
+                fontFamily="cotoris"
+                css={css.IncBox}
+                onClick={() => handleClick(-1)}
+              >
                 -
               </Center>
               <Input
+                value={qty}
+                onChange={(e) => {
+                  if (e.target.value < 1) {
+                    setQty((prev) => 1);
+                  } else {
+                    setQty((prev) => e.target.value);
+                  }
+                }}
                 css={css.ServingInpCss}
                 type="number"
                 _focusVisible="false"
                 color="dgreen"
                 borderColor="lblack2"
               />
-              <Center bg="dwhite2" fontFamily="cotoris" css={css.DecBox}>
+              <Center
+                bg="dwhite2"
+                fontFamily="cotoris"
+                css={css.DecBox}
+                onClick={() => handleClick(1)}
+              >
                 +
               </Center>
             </Box>
