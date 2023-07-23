@@ -6,7 +6,7 @@ import { FiClock } from "react-icons/fi";
 
 const RecipeCard = ({ _id, title, time, category, img, images }) => {
   return (
-    <Link to={`/recipe/${_id}`} className="RecipeCardOuter" target="_blank">
+    <Link to={`/recipe/${_id}`} className="RecipeCardOuter">
       <Box css={css.RecipeCardImgBox}>
         <Image src={img} css={css.RecipeCardImg} />
       </Box>

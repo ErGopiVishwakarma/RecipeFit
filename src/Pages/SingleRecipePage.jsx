@@ -1,6 +1,7 @@
 import * as css from "../Styles/SingleRecipePageCss";
 import * as c from "../Styles/SuggestedAndCommentCss";
-import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import React, { useEffect, useState, useReducer, useContext } from "react";
 import { useParams } from "react-router-dom";
 import {
   Box,
@@ -20,28 +21,28 @@ import SuggestedRecipes from "../Components/RecipesPage/SuggestedRecipes";
 
 const SingleRecipePage = () => {
   const { recipeID } = useParams();
-  const [recipes, setRecipes] = useState(TempRecipeData);
+  //const dipatch = useDispatch();
+  const Loading = useSelector((state) => state.RecipeReducer.isLoading);
+  const Error = useSelector((state) => state.RecipeReducer.isError);
+  const TotalPages = useSelector((state) => state.RecipeReducer.totalPages);
+  const Recipes = useSelector((state) => state.RecipeReducer.recipes);
+
   const [recipeData, setRecipeData] = useState({});
   const [suggested, setSuggested] = useState([]);
 
   useEffect(() => {
-    filterRecipe();
+    let found = Recipes?.filter((item, ind) => item._id == recipeID);
+    setRecipeData((prev) => found[0]);
   }, []);
 
   useEffect(() => {
-    document.title = `${recipeData.title} | RecipeSnap`;
-    let ar = [];
-    for (let a = 0; a < 10; a++) {
-      suggested.push(recipeData.images);
-    }
-    setSuggested((prev) => ar);
-    //console.log(suggested);
+    document.title = `${recipeData?.title} | RecipeSnap`;
   }, [recipeData]);
 
-  function filterRecipe() {
-    let found = recipes?.filter((item, ind) => item._id == recipeID);
-    setRecipeData((prev) => found[0]);
-  }
+  // function filterRecipe() {
+  //   let found = recipes?.filter((item, ind) => item._id == recipeID);
+  //   setRecipeData((prev) => found[0]);
+  // }
 
   return (
     <Box
@@ -50,10 +51,10 @@ const SingleRecipePage = () => {
       //paddingTop={["65px", "75px", "85px"]}
     >
       {/* Recipe Details */}
-      <SingleRecipeDetails recipeData={recipeData} />
+      {/* <SingleRecipeDetails recipeData={recipeData} /> */}
 
       {/* Ingredients and Direction and Images */}
-      <IngAndDirect recipeData={recipeData} />
+      {/* <IngAndDirect recipeData={recipeData} /> */}
 
       {/* Suggested Recipes */}
       {/* <SuggestedRecipes recipeData={recipeData} suggested={suggested} /> */}

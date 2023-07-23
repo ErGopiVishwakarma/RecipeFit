@@ -24,13 +24,11 @@ import {
 function App() {
   return (
     <Box className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <AllRoutes />
-
- <Footer />
+      <Footer />
     </Box>
   );
 }
 
 export default App;
-

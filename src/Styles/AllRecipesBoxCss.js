@@ -12,6 +12,7 @@ export const OuterCont = css`
     margin-top: 55px;
   }
 `;
+
 export const RecipeCardsHolder = css`
   display: grid;
   width: 80%;
