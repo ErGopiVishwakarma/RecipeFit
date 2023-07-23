@@ -2,6 +2,7 @@ import { EmailIcon } from "@chakra-ui/icons";
 import { Box, Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import { BsFacebook, BsFlower2, BsMailbox, BsPinterest, BsTwitter, BsVoicemail } from "react-icons/bs";
+import * as css from "../Styles/AllRecipesBoxCss"
 
 const ArticlesPage = () => {
   return (
@@ -24,8 +25,8 @@ const ArticlesPage = () => {
        <Flex w='92%' bg='white' mt='-50px' p='50px' borderRadius={'10px'} direction={'column'} >
           <Flex direction={'column'} textAlign={'start'} borderLeft={'1px solid red'} pl='30px' gap='20px' w='100%'>
             <Flex direction={'column'} gap='20px'>
-              <Heading>Food and Mood</Heading>
-              <Heading>how can we feel better</Heading>
+              <Heading  fontFamily="cotorisb" fontSize={'59px'}>Food and Mood</Heading>
+              <Heading  fontFamily="cotorisb">how can we feel better</Heading>
             </Flex>
             <Flex gap='10px'>
               <Text px='10px' bg='black' color={'white'}>main</Text>
