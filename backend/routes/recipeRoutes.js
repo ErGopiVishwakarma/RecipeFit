@@ -10,6 +10,6 @@ router.patch('/update/:recipeId', isAuthenticated, updateRecipe);
 router.delete('/delete/:recipeId', isAuthenticated, deleteRecipe);
 router.get('/:recipeId', getRecipeById);
 // router.get('/queryRecipes/:userId', fetchRecipesBySearchTerm);
-router.get('/queryRecipes', fetchRecipesBySearchTerm);
+// router.get('/queryRecipes', fetchRecipesBySearchTerm);
 
 module.exports = router;
