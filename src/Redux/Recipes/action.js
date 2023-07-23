@@ -12,9 +12,8 @@ const GetObj = (payload, totalPages) => {
   return { type: GETRECIPES, payload: payload, totalPages: totalPages };
 };
 
-// Get Recipe Function
-
-export const getData = (params) => async (dispatch) => {
+// Get Recipes Function
+export const getData = (dispatch, params) => {
   dispatch(LoadingObj());
   axios({
     method: "get",
@@ -30,5 +29,22 @@ export const getData = (params) => async (dispatch) => {
     .catch((err) => {
       console.log("Get Error - ", err);
       dispatch(ErrorObj());
+    });
+};
+
+// Get Single Recipe Function
+export const getSingle = (dispatch, id) => {
+  dispatch({ type: "singleLoading" });
+  axios({
+    method: "get",
+    url: `${dburl}recipes/single/${id}`,
+  })
+    .then((res) => {
+      console.log(res);
+      dispatch({ type: "getSingle", payload: res.data });
+    })
+    .catch((err) => {
+      console.log("Get Error - ", err);
+      dispatch({ type: "singleError" });
     });
 };

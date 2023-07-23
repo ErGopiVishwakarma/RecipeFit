@@ -32,7 +32,7 @@
 }
 
 .spinning-image {
-  animation: spin 1.5s linear infinite; /* Adjust the duration and animation timing as needed */
+  animation: spin 1s linear infinite; /* Adjust the duration and animation timing as needed */
 }
 
 /* Comment Text Area - Single Recipe Page */

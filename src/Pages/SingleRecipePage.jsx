@@ -1,6 +1,5 @@
 import * as css from "../Styles/SingleRecipePageCss";
 import * as c from "../Styles/SuggestedAndCommentCss";
-import { useDispatch, useSelector } from "react-redux";
 import React, { useEffect, useState, useReducer, useContext } from "react";
 import { useParams } from "react-router-dom";
 import {
@@ -18,43 +17,79 @@ import TempRecipeData from "../Functions/TempData";
 import SingleRecipeDetails from "../Components/RecipesPage/SingleRecipeDetails";
 import IngAndDirect from "../Components/RecipesPage/IngAndDirect";
 import SuggestedRecipes from "../Components/RecipesPage/SuggestedRecipes";
+import { LoadingImage } from "../Components/RecipesPage/LoadingComponent";
+import { Context } from "../Redux/Context";
+import { getSingle } from "../Redux/Recipes/action";
+
+const init = {
+  recipeData: {},
+  isLoading: false,
+  isError: false,
+};
+
+const singleReducer = (state = init, { type, payload }) => {
+  switch (type) {
+    case "getSingle": {
+      return {
+        ...state,
+        isLoading: false,
+        recipeData: payload,
+      };
+    }
+    case "singleLoading": {
+      return {
+        ...state,
+        isLoading: true,
+        isError: false,
+      };
+    }
+    case "singleError": {
+      return {
+        ...state,
+        isError: true,
+        isLoading: false,
+      };
+    }
+    default: {
+      return {
+        ...state,
+      };
+    }
+  }
+};
 
 const SingleRecipePage = () => {
   const { recipeID } = useParams();
-  //const dipatch = useDispatch();
-  const Loading = useSelector((state) => state.RecipeReducer.isLoading);
-  const Error = useSelector((state) => state.RecipeReducer.isError);
-  const TotalPages = useSelector((state) => state.RecipeReducer.totalPages);
-  const Recipes = useSelector((state) => state.RecipeReducer.recipes);
+  const { recipes } = useContext(Context);
+  const [state, action] = useReducer(singleReducer, init);
+  const { recipeData, isLoading, isError } = state;
 
-  const [recipeData, setRecipeData] = useState({});
   const [suggested, setSuggested] = useState([]);
+  const [qty, setQty] = useState(1);
 
   useEffect(() => {
-    let found = Recipes?.filter((item, ind) => item._id == recipeID);
-    setRecipeData((prev) => found[0]);
+    getSingle(action, recipeID);
   }, []);
 
   useEffect(() => {
-    document.title = `${recipeData?.title} | RecipeSnap`;
+    document.title = recipeData.title
+      ? `${recipeData?.title} | RecipeSnap`
+      : "Recipes | RecipesSnap";
   }, [recipeData]);
 
-  // function filterRecipe() {
-  //   let found = recipes?.filter((item, ind) => item._id == recipeID);
-  //   setRecipeData((prev) => found[0]);
-  // }
-
-  return (
+  return isLoading ? (
+    <LoadingImage />
+  ) : (
     <Box
       paddingBottom={["65px", "80px", "90px"]}
       paddingTop={["95px", "110px", "125px"]}
       //paddingTop={["65px", "75px", "85px"]}
     >
       {/* Recipe Details */}
-      {/* <SingleRecipeDetails recipeData={recipeData} /> */}
+      <SingleRecipeDetails qty={qty} setQty={setQty} recipeData={recipeData} />
 
       {/* Ingredients and Direction and Images */}
-      {/* <IngAndDirect recipeData={recipeData} /> */}
+      <IngAndDirect qty={qty} recipeData={recipeData} />
 
       {/* Suggested Recipes */}
       {/* <SuggestedRecipes recipeData={recipeData} suggested={suggested} /> */}

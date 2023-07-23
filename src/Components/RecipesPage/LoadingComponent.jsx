@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
   Box,
+  Center,
   Text,
   Image,
   Skeleton,
@@ -26,6 +27,18 @@ const LoadingComponent = () => {
         </Box>
       ))}
     </Box>
+  );
+};
+
+export const LoadingImage = () => {
+  return (
+    <Center h="100vh" w="100%">
+      <Image
+        src={LoadingImg}
+        className="spinning-image"
+        css={SpinningImageCss}
+      />
+    </Center>
   );
 };
 
@@ -108,6 +121,21 @@ export const BadgeLoad = css`
   @media (max-width: 768px) {
   }
   @media (max-width: 480px) {
+  }
+`;
+
+export const SpinningImageCss = css`
+  margin: auto;
+  width: 170px;
+  z-index: 800;
+
+  @media (max-width: 992px) {
+  }
+  @media (max-width: 768px) {
+    width: 140px;
+  }
+  @media (max-width: 480px) {
+    width: 110px;
   }
 `;
 
