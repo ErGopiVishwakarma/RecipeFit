@@ -1,6 +1,6 @@
 # Recipe Snap
 
-# What is Recipe Snap about?
+## What is Recipe Snap about?
 
 RecipeSnap is a delightful and interactive recipe website aims to inspire food enthusiasts by providing a user-friendly platform to explore, share, and discover a diverse range of mouthwatering recipes.
 
