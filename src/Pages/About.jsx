@@ -1,8 +1,13 @@
 import { AddIcon, MinusIcon } from '@chakra-ui/icons'
 import { Accordion, AccordionButton, AccordionItem, AccordionPanel, Box, Flex, Heading, Image, Spacer, Text } from '@chakra-ui/react'
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const About = () => {
+
+    useEffect(()=>{
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+      },[])
+
     return (
         <div id="about-page"> fontFamily={"cotorisb"}
             <Box

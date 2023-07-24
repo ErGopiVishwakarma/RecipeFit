@@ -11,8 +11,8 @@ const LatestRecipes = () => {
   const [recipes,setRecipes] = useState([])
 
    const getRecipes = ()=>{
-    axios.get('https://recipefit-backend.onrender.com/recipes').then(res=>{
-        setRecipes(res.data.recipe)
+    axios.get('https://recipe-snap.onrender.com/recipes').then(res=>{
+        setRecipes(res.data.recipes)
     }).catch(err=>console.log(err))
 }
 
