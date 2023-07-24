@@ -16,7 +16,7 @@ const Logo = ({ width = "250px", height = "100%" }) => {
     </NavLink>
   );
 };
-
+ 
 export default Logo;
 
 const LogoOuterCont = css`

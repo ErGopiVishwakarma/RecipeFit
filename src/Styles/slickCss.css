@@ -2,7 +2,7 @@
     position: relative;
     .slick-prev, .slick-next {
       position: absolute;
-      top: 60%;
+      top: 50%;
     }
     .slick-prev {
         left: 3% !important;

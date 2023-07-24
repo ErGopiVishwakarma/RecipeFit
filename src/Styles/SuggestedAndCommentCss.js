@@ -28,7 +28,7 @@ export const ArrowCss = css`
 // Comments Styles
 export const CommentOuter = css`
   margin: auto;
-  width: 70%;
+  width: 100%;
   margin-top: 80px;
 
   @media (max-width: 992px) {

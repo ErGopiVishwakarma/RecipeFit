@@ -14,7 +14,7 @@ const settings = {
     infinite: true,
     autoplay: true,
     speed: 500,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
     centerMode: false,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -51,6 +51,7 @@ function VideoCarousal({ arr, height }) {
                         <Flex direction={'column'} borderRadius={'10px'} alignItems={'start'} pb='40px' gap='20px' boxShadow={'rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px'}  >
                             <Image src={el.img} borderRadius={'10px'} />
                             <Heading color={'gray'} fontSize={'17px'} textAlign={'start'} pt='10px'>{el.title}</Heading>
+                            <Text></Text>
                         </Flex>
                     ))
                 }

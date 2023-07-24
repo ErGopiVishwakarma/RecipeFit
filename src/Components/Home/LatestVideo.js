@@ -15,13 +15,18 @@ const LatestVideo = () => {
         {
           latestVideos?.map((el, ind) => {
             return (
-              <Link className="RecipeCardOuter" target="_blank">
+              <Link className="RecipeCardOuter">
                 <Box css={css.RecipeCardImgBox}>
                   <Image src={el.img} css={css.RecipeCardImg} />
                 </Box>
+                <Flex direction={'column'}>
                 <Text css={css.RecipeNameCss} fontFamily="cotorisb">
                   {el.title}
                 </Text>
+                <Text fontFamily="cotorisb" fontSize='18px'>
+                  {el.text}
+                </Text>
+                </Flex>
               </Link>
             )
           })

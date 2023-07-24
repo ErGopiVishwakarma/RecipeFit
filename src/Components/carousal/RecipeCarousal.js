@@ -12,13 +12,13 @@ const settings = {
   arrows: true,
   fade: true,
   infinite: true,
-  autoplay: false,
+  autoplay: true,
   speed: 500,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 4000,
   slidesToShow: 1,
   slidesToScroll: 1,
   pauseOnHover:false,
-  className: `${style.slides}`,
+  className: 'slides',
   nextArrow: <SampleNextArrow />,
   prevArrow: <SamplePrevArrow />
 };
@@ -47,7 +47,7 @@ return(
     <Slider {...settings} >
       {
         arr?.map((el,ind)=>(
-            <Flex direction={'column'} borderRadius={'10px'} pb='40px' gap='20px' >
+            <Flex direction={'column'} borderRadius={'10px'} pb='10px' gap='20px' >
                 <Image src={el.img} borderRadius={'10px'} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px'} />
                 <Text fontSize={'19px'}  color={'gray'} textAlign={'start'} pt='10px'>{el.title}</Text>
               </Flex>
