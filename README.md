@@ -12,3 +12,4 @@
 - Chakra UI Icons : npm i @chakra-ui/icons
 - React Icons : npm install react-icons , npm install react-icons --save
 - Styled Components : npm i styled-components@4.1.3
+- React Scroll to Top - npm i react-scroll-to-top

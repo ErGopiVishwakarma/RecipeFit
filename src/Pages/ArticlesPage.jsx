@@ -1,6 +1,7 @@
 import { EmailIcon } from "@chakra-ui/icons";
 import { Box, Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
+import * as css from "../Styles/AllRecipesBoxCss";
 import {
   BsFacebook,
   BsFlower2,
@@ -66,8 +67,9 @@ const ArticlesPage = () => {
             <Flex w='25%' display={['none', 'none', 'none', 'flex']}>
               
                  <SideImage el={articles?.sideimage} />
-        
             </Flex>
+            {/* bottom part will come here  */}
+            <Flex h="400px" border={"1px solid red"} w="100%"></Flex>
           </Flex>
 
           {/* comment option here  */}
@@ -79,7 +81,6 @@ const ArticlesPage = () => {
           <Flex direction={'column'} pt='50px' pr={['0px', '0px', '0px', '50px']}>
             <CommentMessage el={articles?.comments} />
           </Flex>
-
         </Flex>
       </Flex>
 

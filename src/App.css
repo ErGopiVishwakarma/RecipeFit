@@ -19,6 +19,22 @@
   }
 }
 
+/* Loading Spinner */
+/* styles.css */
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning-image {
+  animation: spin 1s linear infinite; /* Adjust the duration and animation timing as needed */
+}
+
 /* Comment Text Area - Single Recipe Page */
 .commentTextArea {
   width: 100%;

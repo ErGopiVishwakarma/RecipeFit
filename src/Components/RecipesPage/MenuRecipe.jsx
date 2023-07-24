@@ -15,6 +15,7 @@ import {
   MenuGroup,
   MenuOptionGroup,
   MenuDivider,
+  StepStatus,
 } from "@chakra-ui/react";
 import { BsFillCaretDownFill, BsFillCaretUpFill } from "react-icons/bs";
 
@@ -24,8 +25,72 @@ const MenuRecipe = ({
   options = DemoOptions,
   optionType = "radio",
   CSS = null,
+  setState,
+  wordLimit = 3,
+  reset,
+  current,
 }) => {
   const [titleString, setTitleString] = useState(``);
+  const [selectedValues, setSelectedValues] = useState(
+    optionType == "checkbox" ? [] : ""
+  );
+  const [display, setDisplay] = useState("Nothing Selected");
+
+  useEffect(() => {
+    setSelectedValues(optionType == "checkbox" ? [] : "");
+  }, [reset]);
+
+  useEffect(() => {
+    if (optionType == "checkbox") {
+      setSelectedValues(current);
+    } else {
+      if (current == "asc") {
+        setSelectedValues("A - Z");
+      } else if (current == "desc") {
+        setSelectedValues("Z - A");
+      } else if (current == "rec") {
+        setSelectedValues("Highest Rated");
+      } else if (current == "60 mins") {
+        setSelectedValues("1 hour or less");
+      } else {
+        setSelectedValues("");
+      }
+    }
+  }, []);
+
+  useEffect(() => {
+    if (optionType == "checkbox") {
+      setState((prev) => selectedValues);
+      if (selectedValues.length == 0 || selectedValues == "") {
+        setDisplay("Nothing Selected");
+      } else if (selectedValues.length > wordLimit) {
+        setDisplay(`${selectedValues.length} items Selected`);
+      } else {
+        setDisplay((prev) => {
+          let s = "";
+          selectedValues.forEach((item, inf) => {
+            s += item + ",";
+          });
+          return s;
+        });
+      }
+    } else {
+      setState((prev) => selectedValues);
+      if (selectedValues == "") {
+        setDisplay("Nothing Selected");
+      } else {
+        setDisplay(selectedValues);
+      }
+    }
+  }, [selectedValues]);
+
+  useEffect(() => {}, []);
+
+  const handleChange = (value) => {
+    setSelectedValues((prev) => {
+      return value;
+    });
+  };
 
   return (
     <Box
@@ -59,7 +124,9 @@ const MenuRecipe = ({
             padding="4px 10px"
             fontFamily="cotoris"
           >
-            <Text>Nothing selected</Text>
+            {/* <Text>Nothing selected</Text> */}
+            <Text>{display}</Text>
+
             <Image as={BsFillCaretDownFill} fontSize="12px" />
           </Box>
         </MenuButton>
@@ -78,18 +145,22 @@ const MenuRecipe = ({
           bg="bdbg"
           backdropFilter="blur(30px)"
         >
-          <MenuOptionGroup type={optionType}>
+          <MenuOptionGroup
+            type={optionType}
+            value={selectedValues}
+            onChange={handleChange}
+          >
             {options?.map((item, ind) => (
               <MenuItemOption
-                key={item.name + ind}
+                key={title.includes("Ingredients") ? item : item.name + ind}
                 bg="bdbg"
                 backdropFilter="blur(30px)"
                 _hover={{
                   bg: "white",
                 }}
-                value={item.value}
+                value={title.includes("Ingredients") ? item : item.name}
               >
-                {item.name}
+                {title.includes("Ingredients") ? item : item.name}
               </MenuItemOption>
             ))}
           </MenuOptionGroup>
