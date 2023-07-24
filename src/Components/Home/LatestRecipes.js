@@ -1,21 +1,24 @@
 
 import { Box, Button, Flex, Grid, Heading, Image, Text } from '@chakra-ui/react'
 import * as css from "../../Styles/AllRecipesBoxCss";
-import React, { useEffect } from 'react'
-import { latestRecipes } from './Dummy.js'
+import React, { useEffect, useState } from 'react'
 import RecipeCarousal from '../carousal/RecipeCarousal.js'
 import { Link, NavLink } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
-import { getRecipes } from '../../Redux/Articles/action';
+
+import axios from 'axios';
 
 const LatestRecipes = () => {
+  const [recipes,setRecipes] = useState([])
 
-  const dispatch = useDispatch()
-  const recipes = useSelector(store => store.articleReducer.recipes)
-  console.log(recipes)
-  useEffect(() => {
-    dispatch(getRecipes())
-  }, [])
+   const getRecipes = ()=>{
+    axios.get('https://recipefit-backend.onrender.com/recipes').then(res=>{
+        setRecipes(res.data.recipe)
+    }).catch(err=>console.log(err))
+}
+
+useEffect(()=>{
+  getRecipes()
+},[])
 
   return (
     <Flex direction={'column'} alignItems={'start'} px='4%' w='100%'>
@@ -24,7 +27,7 @@ const LatestRecipes = () => {
         {
           recipes?.slice(0,8).map((el, ind) => {
             return (
-              <NavLink to={`recipe/${el?._id}`} className="RecipeCardOuter" >
+              <NavLink to={`recipe/${el?._id}`} className="RecipeCardOuter" key={ind} >
                 <Box css={css.RecipeCardImgBox}>
                   <Image src={el?.img} css={css.RecipeCardImg} />
                 </Box>

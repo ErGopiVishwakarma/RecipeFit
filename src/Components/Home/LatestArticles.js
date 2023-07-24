@@ -8,16 +8,17 @@ import { latestArticles } from './Dummy'
 import ArticleCarousal from '../carousal/ArticleCarousal'
 import { Link, NavLink } from 'react-router-dom';
 import axios from 'axios';
-import { useDispatch, useSelector } from 'react-redux';
-import { getArticles } from '../../Redux/Articles/action';
 
 const LatestArticles = () => {
-  //  const [articles,setArticles] = useState([])
-  const dispatch = useDispatch()
-  const articles = useSelector(store => store.articleReducer.articles)
-console.log(articles)
+  const [articles, setArticles] = useState([])
+  const getArticles = ()=> {
+    axios.get('https://recipefit-backend.onrender.com/articles').then(res => {
+      setArticles(res.data.article)
+    }).catch(err => console.log(err))
+  }
+
   useEffect(() => {
-    dispatch(getArticles())
+    getArticles()
   }, [])
 
   return (
