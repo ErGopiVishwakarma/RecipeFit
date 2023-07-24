@@ -16,12 +16,17 @@ import { useDispatch, useSelector } from "react-redux";
 import { getRecipes } from "../../Redux/Articles/action";
 
 const LatestRecipes = () => {
-  const dispatch = useDispatch();
-  const recipes = useSelector((store) => store.articleReducer.recipes);
-  console.log(recipes);
-  useEffect(() => {
-    dispatch(getRecipes());
-  }, []);
+  const [recipes,setRecipes] = useState([])
+
+   const getRecipes = ()=>{
+    axios.get('https://recipe-snap.onrender.com/recipes').then(res=>{
+        setRecipes(res.data.recipes)
+    }).catch(err=>console.log(err))
+}
+
+useEffect(()=>{
+  getRecipes()
+},[])
 
   return (
     <Flex direction={"column"} alignItems={"start"} px="4%" w="100%">

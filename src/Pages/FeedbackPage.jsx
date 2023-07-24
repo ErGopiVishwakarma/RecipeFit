@@ -1,11 +1,15 @@
 import { AspectRatio, Box, Center, Flex, Heading, Image, Spacer, Text } from '@chakra-ui/react'
-import React from 'react'
+import React, { useEffect } from 'react'
 
 
 const FeedbackPage = () => {
 
     const googleFormEmbedURL = "https://docs.google.com/forms/d/e/1FAIpQLSe1MM3fa2nKZgwoR1fPPqsA5xVWyunAQSOZAJMkqvDKXGYhsA/viewform?usp=sf_link"
     // https://docs.google.com/forms/d/e/1FAIpQLSe1MM3fa2nKZgwoR1fPPqsA5xVWyunAQSOZAJMkqvDKXGYhsA/viewform?usp=sf_link
+
+    useEffect(()=>{
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+      },[])
 
     return (
         <>
