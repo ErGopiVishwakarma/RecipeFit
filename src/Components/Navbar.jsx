@@ -1,26 +1,16 @@
 import * as css from "../Styles/NavBarCss";
 import React, { useEffect, useState } from "react";
+import { NavLink,Link as Links} from "react-router-dom";
 import {
   Box,
   Link,
-  Center,
-  Icon,
   Collapse,
-  InputGroup,
-  InputLeftElement,
-  InputRightElement,
-  Text,
   Image,
-  Input,
-  useBoolean,
   Drawer,
-  DrawerBody,
-  DrawerFooter,
   useDisclosure,
-  DrawerHeader,
   DrawerOverlay,
   DrawerContent,
-  DrawerCloseButton,
+  Text,
 } from "@chakra-ui/react";
 import { BsSearch } from "react-icons/bs";
 import { TfiEmail } from "react-icons/tfi";
@@ -63,10 +53,10 @@ const Navbar = () => {
           isOpen
             ? css.NavBarOuter
             : show
-            ? css.ScrolledNavOuter
-            : css.NavBarOuter
+              ? css.ScrolledNavOuter
+              : css.NavBarOuter
         }
-        // css={show ? css.ScrolledNavOuter : css.NavBarOuter}
+      // css={show ? css.ScrolledNavOuter : css.NavBarOuter}
       >
         {/* Left Icons */}
         <Box css={css.LeftNavCont}>
@@ -78,33 +68,32 @@ const Navbar = () => {
               setShowSearch((prev) => !prev);
             }}
           />
-          <Link
+          <NavLink
             style={{
               textDecoration: "none",
             }}
-            href="/recipes"
-            css={css.NavLinkCss}
+            to="/recipes"            
           >
-            Recipes
-          </Link>
-          <Link
+           <Text css={css.NavLinkCss}> Recipes</Text>
+          </NavLink>
+          <NavLink
             style={{
               textDecoration: "none",
             }}
-            href="/articles"
-            css={css.NavLinkCss}
+            to="/articles"
+            
           >
-            Articles
-          </Link>
-          <Link
+            <Text css={css.NavLinkCss}>Articles</Text>
+          </NavLink>
+          <NavLink
             style={{
               textDecoration: "none",
             }}
-            href="/videos"
-            css={css.NavLinkCss}
+            to="/videos"
+            
           >
-            Videos
-          </Link>
+            <Text css={css.NavLinkCss}>Videos</Text>
+          </NavLink>
         </Box>
 
         {/* Logo */}
@@ -131,15 +120,15 @@ const Navbar = () => {
           >
             Shop
           </Link>
-          <Link
+          <NavLink
             style={{
               textDecoration: "none",
             }}
-            href="/about"
-            css={css.NavLinkCss}
+            to="/about"
+            
           >
-            About
-          </Link>
+           <Text css={css.NavLinkCss}> About</Text>
+          </NavLink>
 
           <Image
             display={["none", "none", "block"]}
@@ -174,33 +163,33 @@ const Navbar = () => {
           css={css.MenuContentBox}
           fontFamily="cotorisb"
         >
-          <Link
+          <NavLink
             style={{
               textDecoration: "none",
             }}
-            href="/recipes"
+            to="/recipes"
             css={css.MenuLinkCss}
           >
             Recipes
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             style={{
               textDecoration: "none",
             }}
-            href="/articles"
+            to="/articles"
             css={css.MenuLinkCss}
           >
             Articles
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             style={{
               textDecoration: "none",
             }}
-            href="/videos"
+            to="/videos"
             css={css.MenuLinkCss}
           >
             Videos
-          </Link>
+          </NavLink>
           <Link
             style={{
               textDecoration: "none",
@@ -211,24 +200,24 @@ const Navbar = () => {
           >
             App
           </Link>
-          <Link
+          <NavLink
             style={{
               textDecoration: "none",
             }}
-            href="/shop"
+            to="/shop"
             css={css.MenuLinkCss}
           >
             Shop
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             style={{
               textDecoration: "none",
             }}
-            href="/about"
+            to="/about"
             css={css.MenuLinkCss}
           >
             About
-          </Link>
+          </NavLink>
           <Image
             display={["block", "block", "none"]}
             as={TfiEmail}

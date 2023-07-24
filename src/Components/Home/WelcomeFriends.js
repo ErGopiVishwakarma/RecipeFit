@@ -9,7 +9,7 @@ const WelcomeFriends = () => {
                 <Heading>
                     Welcome friend
                 </Heading>
-                <Flex w='100%' py='40px' gap='100px' direction={['column', 'column', 'row', 'row']}>
+                <Flex w='100%' py='40px' gap={['60px','70px','80px','100px']} direction={['column', 'column', 'row', 'row']}>
                     <Flex w={['70%', '80%', '50%']} gap='50px' m='auto'>
                         <Box display={['none', 'block']}>
                             <Text style={{ writingMode: 'vertical-lr' }} letterSpacing={'4px'} transform="rotate(180deg)">psst: we're happy you're here!</Text>

@@ -67,7 +67,7 @@ function MainCarousals({ pictures, height }) {
     <Slider {...settings} >
       {
         arr?.map((el,ind)=>(
-            <Box key ={ind} w='100%' h={['500px','350px','500px','100vh']}>
+            <Box key ={ind} w='100%' h={['400px','350px','500px','100vh']}>
                 <Image src={el.image} w='100%' h='100%' />
             </Box>
         ))

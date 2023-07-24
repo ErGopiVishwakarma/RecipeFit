@@ -3,20 +3,31 @@ import { Box, Button, Flex, Grid, Heading, Image, Text } from '@chakra-ui/react'
 import * as css from "../../Styles/AllRecipesBoxCss";
 import * as cs from "../../Styles/FilterRecipeStyles";
 
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { latestArticles } from './Dummy'
 import ArticleCarousal from '../carousal/ArticleCarousal'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import axios from 'axios';
+import { useDispatch, useSelector } from 'react-redux';
+import { getArticles } from '../../Redux/Articles/action';
 
 const LatestArticles = () => {
+  //  const [articles,setArticles] = useState([])
+  const dispatch = useDispatch()
+  const articles = useSelector(store => store.articleReducer.articles)
+console.log(articles)
+  useEffect(() => {
+    dispatch(getArticles())
+  }, [])
+
   return (
     <Flex direction={'column'} alignItems={'start'} px='4%' w='100%'>
       <Heading py='30px' color={'gray'} fontFamily="cotorisb">Latest aritcles</Heading>
       <Grid gridTemplateColumns={['none', 'repeat(2,1fr)', 'repeat(2,1fr)', 'repeat(3,1fr)']} display={['none', 'grid', 'grid', 'grid']} w='100%' gap='30px'>
         {
-          latestArticles?.map((el, ind) => {
+          articles?.map((el, ind) => {
             return (
-              <Link className="RecipeCardOuter" target="_blank">
+              <NavLink to={`articles/${el._id}`} className="RecipeCardOuter" key={ind}>
                 <Box css={css.RecipeCardImgBox}>
                   <Image src={el.image} css={css.RecipeCardImg} />
                 </Box>
@@ -28,16 +39,16 @@ const LatestArticles = () => {
                     {el.subheading}
                   </Text>
                 </Flex>
-              </Link>
+              </NavLink>
 
             )
           })
         }
       </Grid>
-      <Button 
+      <Button
         bg="red.700"
         fontFamily="hind"
-        _hover={{ bg: "red.700",borderRadius:'50px' }}
+        _hover={{ bg: "red.700", borderRadius: '50px' }}
         isLoading={false}
         m='auto'
         display={['none', 'block']}
@@ -50,7 +61,7 @@ const LatestArticles = () => {
 
       {/* carousal here  */}
       <Box display={['block', 'none']} w='100%' pos={'relative'}>
-        <ArticleCarousal arr={latestArticles} />
+        <ArticleCarousal arr={articles} />
       </Box>
     </Flex>
   )

@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { Box, Flex, Heading, Image, Text } from '@chakra-ui/react';
 import Slider from 'react-slick';
 import style from '../../Styles/carousal.module.css'
+import { NavLink } from 'react-router-dom';
 // Settings for the slider
 
 const settings = {
@@ -12,18 +13,18 @@ const settings = {
     arrows: true,
     fade: true,
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     speed: 500,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1,
     pauseOnHover: false,
-    className: `${style.slides}`,
+    className: 'slides',
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />
 };
 function ArticleCarousal({ arr, height }) {
-
+console.log(arr)
     return (
         <Box
             pb={'60px'}
@@ -47,13 +48,15 @@ function ArticleCarousal({ arr, height }) {
             <Slider {...settings} >
                 {
                     arr?.map((el, ind) => (
-                        <Flex direction={'column'} borderRadius={'10px'}  pb='40px' gap='20px' w='100%' key={ind} >
-                            <Image src={el.image} borderRadius={'10px'} />
-                            <Flex direction={'column'} alignItems={'start'} pt='10px'>
-                                <Heading fontSize={'19px'} color={'gray'}>{el.heading}</Heading>
-                                <Text>{el.subheading}</Text>
+                        <NavLink to={`/articles/${el._id}`}>
+                            <Flex direction={'column'} borderRadius={'10px'} pb='10px' gap='20px' w='100%' key={ind} >
+                                <Image src={el.image} borderRadius={'10px'} />
+                                <Flex direction={'column'} alignItems={'start'} pt='10px'>
+                                    <Heading fontSize={'19px'} color={'gray'}>{el.heading}</Heading>
+                                    <Text>{el.subheading}</Text>
+                                </Flex>
                             </Flex>
-                        </Flex>
+                        </NavLink>
                     ))
                 }
             </Slider>
