@@ -15,7 +15,7 @@ const LatestVideo = () => {
         {
           latestVideos?.map((el, ind) => {
             return (
-              <Link className="RecipeCardOuter" key={ind}>
+              <Link className="RecipeCardOuter">
                 <Box css={css.RecipeCardImgBox}>
                   <Image src={el.img} css={css.RecipeCardImg} />
                 </Box>
