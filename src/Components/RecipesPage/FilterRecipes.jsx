@@ -165,7 +165,7 @@ const FilterRecipes = ({
               onClick={() => {
                 setReset((prev) => !prev);
                 setPage(1);
-                // handleSubmit();
+                handleSubmit();
               }}
               css={css.ResetBtn}
               spinnerPlacement="end"
