@@ -6,6 +6,7 @@ import LatestArticles from "../Components/Home/LatestArticles";
 import WelcomeFriends from "../Components/Home/WelcomeFriends";
 import JoinCommunity from "../Components/Home/JoinCommunity";
 import MainCarousals from "../Components/carousal/MainCarousal";
+import Feedback from "../Components/Feedback";
 
 const HomePage = () => {
 
@@ -29,6 +30,7 @@ const HomePage = () => {
       <JoinCommunity />
       {/* Latest Aritcles  */}
       <LatestArticles />
+      <Feedback />
     </Flex>
   );
 };
