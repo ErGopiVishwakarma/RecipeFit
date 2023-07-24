@@ -26,7 +26,7 @@ function App() {
   return (
     <Box className="App">
       <ScrollToTop smooth />
-      {/* <Navbar /> */}
+      <Navbar />
       <AllRoutes />
       <Footer />
     </Box>

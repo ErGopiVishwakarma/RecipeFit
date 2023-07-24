@@ -16,7 +16,6 @@ const AllRoutes = () => {
       <Route path="/articles/:id" element={<ArticlesPage />} />
       <Route path="/recipes" element={<RecipesPage />} />
       <Route path="/recipe/:recipeID" element={<SingleRecipePage />} />
-
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );

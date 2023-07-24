@@ -6,8 +6,8 @@ import reportWebVitals from "./reportWebVitals";
 
 import { BrowserRouter } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
-//import { Provider } from "react-redux";
-//import { store } from "./Redux/Store";
+import { Provider } from "react-redux";
+import { store } from "./Redux/Store";
 import CustomeTheme from "./Styles/Theme";
 import { ContextProvider } from "./Redux/Context";
 
@@ -15,11 +15,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <ChakraProvider theme={CustomeTheme}>
     {/* <Provider store={store}> */}
-    <ContextProvider>
-      <BrowserRouter scrollRestoration="manual">
+    <BrowserRouter scrollRestoration="manual">
+      <ContextProvider>
         <App />
-      </BrowserRouter>
-    </ContextProvider>
+      </ContextProvider>
+    </BrowserRouter>
     {/* </Provider> */}
   </ChakraProvider>
 );
