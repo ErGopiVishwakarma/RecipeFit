@@ -41,21 +41,6 @@ npm run start
 ```
 
  
+![Landing](https://github.com/ErGopiVishwakarma/RecipeFit/assets/114371170/52862693-c52a-4a2d-9909-945ea1e4594b)
 
-![Landing Page 1](./src/Images/ReadMeImgs/Landing%201.png)
 
-![Landing Page 2](./src/Images/ReadMeImgs/Landing%202.png)
-
-![LogIn](./src/Images/ReadMeImgs/LogIn.png)
-
-![SignUp](./src/Images/ReadMeImgs/SignUp.png)
-
-![FAQ Page](./src/Images/ReadMeImgs/FAQ.png)
-
-![Enter App Page](./src/Images/ReadMeImgs/ProductPage.png)
-
-![Buy Stocks Page](./src/Images/ReadMeImgs/BuyStocksModal.png)
-
-![Account Page](./src/Images/ReadMeImgs/Account.png)
-
-![BookMarks](./src/Images/ReadMeImgs/BookMarks.png)
